@@ -1,4 +1,18 @@
 {
+  "possessor": {
+    "_id": 12,
+    "anio": 2020,
+    "director": "Brandon Cronenberg",
+    "duracion": "1 hr 43 min",
+    "especial": true,
+    "fechas": ["2023-09-26"],
+    "genero": ["terror", "ciencia ficción"],
+    "horario": "22:00",
+    "poster": "images/poster/possessor.jpg",
+    "sala": "leonardo favio",
+    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+    "titulo": "possessor"
+  },
   "caminemos_valentina": {
     "_id": 1,
     "anio": 2023,
@@ -21,11 +35,11 @@
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     "titulo": "caminemos valentina"
   },
-  "el_fantasma": {
-    "_id": 2,
+  "la_uruguaya": {
+    "_id": 9,
     "anio": 2023,
-    "director": "Martín Duplaquet",
-    "duracion": "1 hr 55 min",
+    "director": "Ana Garcia Blaya",
+    "duracion": "1 hr 18 min",
     "especial": false,
     "fechas": [
       "2023-09-21",
@@ -33,59 +47,14 @@
       "2023-09-23",
       "2023-09-24",
       "2023-09-25",
-      "2023-09-26",
       "2023-09-27"
     ],
-    "genero": ["policial"],
-    "horario": ["12:20"],
-    "poster": "images/poster/el fantasma.jpg",
-    "sala": "fernando birri",
+    "genero": "drama",
+    "horario": ["12:10", "22:00", "22:40"],
+    "poster": "images/poster/la uruguaya.jpg",
+    "sala": "leonardo favio",
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "el fantasma"
-  },
-  "el_kaiser_de_la_atlantida": {
-    "_id": 3,
-    "anio": 2023,
-    "director": "Sebastián Alfie",
-    "duracion": "1 hr 31 min",
-    "especial": false,
-    "fechas": [
-      "2023-09-21",
-      "2023-09-22",
-      "2023-09-23",
-      "2023-09-24",
-      "2023-09-25",
-      "2023-09-26",
-      "2023-09-27"
-    ],
-    "genero": ["documental"],
-    "horario": ["18:30"],
-    "poster": "images/poster/el kaise de la atlantida.jpg",
-    "sala": "fernando birri",
-    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "el kaiser de la atlántida"
-  },
-  "el_vasco": {
-    "_id": 4,
-    "anio": 2023,
-    "director": "Jabi Elortegui",
-    "duracion": "1 hr 41 min",
-    "especial": false,
-    "fechas": [
-      "2023-09-21",
-      "2023-09-22",
-      "2023-09-23",
-      "2023-09-24",
-      "2023-09-25",
-      "2023-09-26",
-      "2023-09-27"
-    ],
-    "genero": ["policial"],
-    "horario": ["14:30", "22:15"],
-    "poster": "images/poster/el vasco.jpg",
-    "sala": "fernando birri",
-    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "el vasco"
+    "titulo": "la uruguaya"
   },
   "finde": {
     "_id": 5,
@@ -130,11 +99,11 @@
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     "titulo": "guapo'y"
   },
-  "hace_mucho_que_no_duermo": {
-    "_id": 7,
+  "oliva": {
+    "_id": 11,
     "anio": 2023,
-    "director": "Agustín Godoy",
-    "duracion": "1 hr 32 min",
+    "director": "Luciano Leyrado",
+    "duracion": "1 hr 31 min",
     "especial": false,
     "fechas": [
       "2023-09-21",
@@ -145,55 +114,12 @@
       "2023-09-26",
       "2023-09-27"
     ],
-    "genero": ["comedia dramática"],
-    "horario": ["20:15"],
-    "poster": "images/poster/hace mucho que no duermo.jpg",
-    "sala": "fernando birri",
-    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "hace mucho que no duermo"
-  },
-  "herbario#1": {
-    "_id": 8,
-    "anio": 2023,
-    "director": "Stella Maris Santiago",
-    "duracion": "2 min",
-    "especial": false,
-    "fechas": [
-      "2023-09-21",
-      "2023-09-22",
-      "2023-09-23",
-      "2023-09-24",
-      "2023-09-25",
-      "2023-09-26",
-      "2023-09-27"
-    ],
-    "genero": ["animación experimental"],
-    "horario": ["12:30", "14:10", "17:40", "21:00"],
-    "poster": "images/poster/herbario.jpg",
+    "genero": ["comedia"],
+    "horario": ["15:45", "22:30"],
+    "poster": "images/poster/oliva.jpg",
     "sala": "maría luisa bemberg",
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "herbario#1"
-  },
-  "la_uruguaya": {
-    "_id": 9,
-    "anio": 2023,
-    "director": "Ana Garcia Blaya",
-    "duracion": "1 hr 18 min",
-    "especial": false,
-    "fechas": [
-      "2023-09-21",
-      "2023-09-22",
-      "2023-09-23",
-      "2023-09-24",
-      "2023-09-25",
-      "2023-09-27"
-    ],
-    "genero": "drama",
-    "horario": ["12:10", "22:00", "22:40"],
-    "poster": "images/poster/la uruguaya.jpg",
-    "sala": "leonardo favio",
-    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "la uruguaya"
+    "titulo": "oliva"
   },
   "lejos_de_los_hombres": {
     "_id": 10,
@@ -217,11 +143,11 @@
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     "titulo": "lejos de los hombres"
   },
-  "oliva": {
-    "_id": 11,
+  "el_fantasma": {
+    "_id": 2,
     "anio": 2023,
-    "director": "Luciano Leyrado",
-    "duracion": "1 hr 31 min",
+    "director": "Martín Duplaquet",
+    "duracion": "1 hr 55 min",
     "especial": false,
     "fechas": [
       "2023-09-21",
@@ -232,26 +158,34 @@
       "2023-09-26",
       "2023-09-27"
     ],
-    "genero": ["comedia"],
-    "horario": ["15:45", "22:30"],
-    "poster": "images/poster/oliva.jpg",
-    "sala": "maría luisa bemberg",
+    "genero": ["policial"],
+    "horario": ["12:20"],
+    "poster": "images/poster/el fantasma.jpg",
+    "sala": "fernando birri",
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "oliva"
+    "titulo": "el fantasma"
   },
-  "possessor": {
-    "_id": 12,
-    "anio": 2020,
-    "director": "Brandon Cronenberg",
-    "duracion": "1 hr 43 min",
-    "especial": true,
-    "fechas": ["2023-09-26"],
-    "genero": ["terror", "ciencia ficción"],
-    "horario": "22:00",
-    "poster": "images/poster/possessor.jpg",
-    "sala": "leonardo favio",
+  "el_vasco": {
+    "_id": 4,
+    "anio": 2023,
+    "director": "Jabi Elortegui",
+    "duracion": "1 hr 41 min",
+    "especial": false,
+    "fechas": [
+      "2023-09-21",
+      "2023-09-22",
+      "2023-09-23",
+      "2023-09-24",
+      "2023-09-25",
+      "2023-09-26",
+      "2023-09-27"
+    ],
+    "genero": ["policial"],
+    "horario": ["14:30", "22:15"],
+    "poster": "images/poster/el vasco.jpg",
+    "sala": "fernando birri",
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
-    "titulo": "possessor"
+    "titulo": "el vasco"
   },
   "temas_propios": {
     "_id": 13,
@@ -274,5 +208,50 @@
     "sala": "fernando birri",
     "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
     "titulo": "temas propios"
+  },
+  "el_kaiser_de_la_atlantida": {
+    "_id": 3,
+    "anio": 2023,
+    "director": "Sebastián Alfie",
+    "duracion": "1 hr 31 min",
+    "especial": false,
+    "fechas": [
+      "2023-09-21",
+      "2023-09-22",
+      "2023-09-23",
+      "2023-09-24",
+      "2023-09-25",
+      "2023-09-26",
+      "2023-09-27"
+    ],
+    "genero": ["documental"],
+    "horario": ["18:30"],
+    "poster": "images/poster/el kaise de la atlantida.jpg",
+    "sala": "fernando birri",
+    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+    "titulo": "el kaiser de la atlántida"
+  },
+
+  "hace_mucho_que_no_duermo": {
+    "_id": 7,
+    "anio": 2023,
+    "director": "Agustín Godoy",
+    "duracion": "1 hr 32 min",
+    "especial": false,
+    "fechas": [
+      "2023-09-21",
+      "2023-09-22",
+      "2023-09-23",
+      "2023-09-24",
+      "2023-09-25",
+      "2023-09-26",
+      "2023-09-27"
+    ],
+    "genero": ["comedia dramática"],
+    "horario": ["20:15"],
+    "poster": "images/poster/hace mucho que no duermo.jpg",
+    "sala": "fernando birri",
+    "sinopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.",
+    "titulo": "hace mucho que no duermo"
   }
 }
