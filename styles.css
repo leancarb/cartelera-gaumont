@@ -154,8 +154,8 @@ a:active {
 
 .main__container-movie--poster {
   cursor: pointer;
-  width: 15rem;
-  height: 22.5rem;
+  width: 17.5rem;
+  height: 26.25rem;
   border-radius: 0.375rem;
   box-shadow: 0 0.625rem 1.5625rem 0 rgba(0, 0, 0, 0.15);
 }
