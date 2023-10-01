@@ -111,7 +111,7 @@ content();
 
 // Array con navbar items
 
-// PLACEHOLDER
+// PLACEHOLDER PROVISORIO
 const navItems = {
   1: {
     text: "cartelera",
@@ -302,32 +302,3 @@ document.addEventListener("keydown", function (e) {
     closeModal();
   }
 });
-
-/*
-// CAMBIAR UBICACION DEL NAV SI ES MOBILE O WEB
-// Obtener la ventana actual
-const ventana = window;
-
-// Función para verificar si es un dispositivo móvil
-function esDispositivoMovil() {
-  return ventana.innerWidth <= 768; // Ajusta este valor según tus necesidades
-}
-
-// Función para mover la barra de navegación
-function actualizarUbicacionBarraNavegacion() {
-  const navbar = document.getElementById('navbar');
-  const main = document.querySelector('main');
-
-  if (esDispositivoMovil()) {
-    // Mover la barra de navegación a la parte inferior
-    main.appendChild(navbar);
-  } else {
-    // Mover la barra de navegación a la parte superior
-    document.body.insertBefore(navbar, main);
-  }
-}
-
-// Llamar a la función al cargar la página y cuando se cambie el tamaño de la ventana
-ventana.addEventListener('load', actualizarUbicacionBarraNavegacion);
-ventana.addEventListener('resize', actualizarUbicacionBarraNavegacion);
-*/
