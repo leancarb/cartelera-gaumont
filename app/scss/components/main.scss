@@ -1,0 +1,25 @@
+@use "../util" as *;
+
+.main {
+  padding: 0 rem(10);
+  margin-bottom: rem(60);
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+
+    &-movie {
+      height: auto;
+      margin-bottom: rem(12);
+
+      &--poster {
+        cursor: pointer;
+        width: rem(160);
+        height: rem(240);
+        border-radius: rem(6);
+        box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+}

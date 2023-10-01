@@ -1,0 +1,40 @@
+@use "../util" as *;
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--container-bg);
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding: 0;
+    font-size: rem(10);
+
+    &-item {
+      text-transform: uppercase;
+      text-align: center;
+      padding: rem(10) 0;
+      color: #244198;
+
+      & div {
+        width: rem(24);
+        margin: 0 auto;
+      }
+
+      &--anchor {
+        padding: rem(10) rem(20);
+        border-radius: rem(999);
+
+        &:hover {
+          cursor: pointer;
+          background-color: var(--primary-light);
+          transition: var(--transition);
+        }
+      }
+    }
+  }
+}

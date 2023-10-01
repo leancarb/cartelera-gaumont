@@ -1,0 +1,29 @@
+@use "../util" as *;
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  &__img {
+    &-logo {
+      height: rem(200);
+    }
+  }
+
+  &__info {
+    &--address {
+    }
+    &--phone {
+    }
+  }
+
+  &__social {
+    &__list {
+      &-item {
+        &--anchor {
+        }
+      }
+    }
+  }
+}

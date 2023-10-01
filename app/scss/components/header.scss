@@ -1,0 +1,13 @@
+@use "../util" as *;
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: rem(20) 0;
+
+  &__logo {
+    width: rem(50);
+  }
+}
