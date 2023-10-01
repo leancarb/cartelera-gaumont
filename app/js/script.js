@@ -223,6 +223,19 @@ for (let i = 0; i < footerSocials.length; i++) {
 ////////// OVERLAY /////////
 ////////////////////////////
 
+function calculateModalPosition() {
+  const scrollY = window.scrollY || window.pageYOffset;
+  const windowHeight = window.innerHeight;
+  const modalHeight = modal.offsetHeight;
+
+  const top = scrollY + windowHeight / 2 - modalHeight / 2;
+  modal.style.top = `${top}px`;
+
+  // Calculate the overlay position
+  overlay.style.top = `${scrollY}px`;
+  overlay.style.height = `${windowHeight}px`;
+}
+
 // #Selection overlay
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
@@ -234,6 +247,8 @@ const openModal = function () {
   overlay.classList.remove("hidden");
   // Previene scroll
   body.style.overflow = "hidden";
+
+  calculateModalPosition();
 };
 // Función cerrar modal
 const closeModal = function () {
