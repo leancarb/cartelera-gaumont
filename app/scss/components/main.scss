@@ -5,9 +5,13 @@
   margin-bottom: rem(60);
 
   &__container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
+    // display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: rem(10);
 
     &-movie {
       height: auto;
@@ -15,10 +19,23 @@
 
       &--poster {
         cursor: pointer;
-        width: rem(160);
-        height: rem(240);
+        width: rem(240);
+        height: rem(360);
         border-radius: rem(6);
         box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
+
+        @include breakpoint(medium) {
+          width: rem(calc(240 * 1.2));
+          height: rem(calc(360 * 1.2));
+        }
+
+        @include breakpoint(large) {
+          width: rem(calc(240 * 1.4));
+          height: rem(calc(360 * 1.4));
+        }
+
+        @include breakpoint(xlarge) {
+        }
       }
     }
   }

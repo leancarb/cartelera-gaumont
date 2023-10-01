@@ -156,14 +156,14 @@ function createMovieContainer(movie) {
 
   // #Create
   const moviePoster = document.createElement("img");
-  const movieDescription = document.createElement("div");
+  // const movieDescription = document.createElement("div");
   // const movieTitle = document.createElement("p");
   // const movieDuration = document.createElement("p");
   // const movieSinopsis = document.createElement("p");
 
   // #Append
   movieContainer.appendChild(moviePoster);
-  movieContainer.appendChild(movieDescription);
+  // movieContainer.appendChild(movieDescription);
   // movieDescription.appendChild(movieTitle);
   // movieDescription.appendChild(movieDuration);
   // movieDescription.appendChild(movieSinopsis);
