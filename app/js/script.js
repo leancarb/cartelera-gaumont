@@ -99,8 +99,7 @@ function content() {
   overlayButton.type = "button";
   overlayButton.textContent = "X";
   overlayButton.classList.add("close-modal");
-  overlayHeading.textContent = "caminemos valentina";
-  overlayParagraph.textContent = "director: alberto lecchi";
+
   mainOverlay.classList.add("overlay", "hidden");
 }
 content();
@@ -123,6 +122,8 @@ navItems.map((i) => {
   // Poner text a cada A
   navLI.classList.add("nav__list-item");
   navAnchor.classList.add("nav__list-item--anchor");
+  navAnchor.href = "#";
+
   navAnchor.textContent = i;
   // Append LI, A al UL
   navUL.appendChild(navLI);
@@ -156,31 +157,21 @@ function createMovieContainer(movie) {
 
   // #Create
   const moviePoster = document.createElement("img");
-  // const movieDescription = document.createElement("div");
-  // const movieTitle = document.createElement("p");
-  // const movieDuration = document.createElement("p");
-  // const movieSinopsis = document.createElement("p");
+  const movieDescription = document.createElement("div");
 
   // #Append
   movieContainer.appendChild(moviePoster);
-  // movieContainer.appendChild(movieDescription);
-  // movieDescription.appendChild(movieTitle);
-  // movieDescription.appendChild(movieDuration);
-  // movieDescription.appendChild(movieSinopsis);
+  movieContainer.appendChild(movieDescription);
 
   // #Content
   movieContainer.classList.add("main__container-movie");
   moviePoster.classList.add("main__container-movie--poster");
   moviePoster.src = element.poster;
   moviePoster.alt = `${element.titulo} poster`;
-  // BORRAR STRONG, poner text content
-  // movieDescription.classList.add("main__container-movie-description");
-  // movieTitle.innerHTML = ` <strong>${element.titulo}</strong>`;
-  // movieTitle.classList.add("main__container-movie-description--title");
-  // movieDuration.classList.add("main__container-movie-description--duration");
-  // movieDuration.innerHTML = `duración <span>${element.duracion}</span>`;
-  // movieSinopsis.textContent = element.sinopsis;
-  // movieSinopsis.classList.add("main__container-movie-description--sinopsis");
+
+  overlayHeading.textContent = `${element.titulo}`;
+  overlayHeading.style.textTransform = "capitalize";
+  overlayParagraph.textContent = `Dirección: ${element.director}`;
 
   // En cada película se abre el overlay
   movieContainer.addEventListener("click", openModal);

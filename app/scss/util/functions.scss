@@ -4,3 +4,13 @@
 @function rem($pixels, $context: 16) {
   @return (math.div($pixels, $context)) * 1rem;
 }
+
+// @mixin flex-center($variable) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: $variable;
+// }
+
+// @include flex-center(center
+
+// sass --watch app/scss/styles.scss:styles.css)

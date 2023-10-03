@@ -81,4 +81,5 @@ Al poner pagar, se limpia el overlay, se pone que la compra fue exitosa (un porc
 
 # Otros
 
-scss
+Accessible
+Guía de pixeles/medidas
