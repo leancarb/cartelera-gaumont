@@ -19,20 +19,18 @@
 
       &--poster {
         cursor: pointer;
-        width: rem(190);
+        width: rem(180);
         height: auto;
         aspect-ratio: 2 / 3;
         border-radius: rem(6);
         box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
 
         @include breakpoint(medium) {
-          width: rem(calc(240 * 1.2));
-          height: rem(calc(360 * 1.2));
+          width: rem(calc(180 * 1.2));
         }
 
         @include breakpoint(large) {
-          width: rem(calc(240 * 1.4));
-          height: rem(calc(360 * 1.4));
+          width: rem(calc(180 * 1.4));
         }
 
         @include breakpoint(xlarge) {
