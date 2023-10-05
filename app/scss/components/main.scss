@@ -41,18 +41,18 @@
 
       &--poster {
         cursor: pointer;
-        width: 150px;
+        width: rem(150);
         height: auto;
         aspect-ratio: 2 / 3;
         border-radius: rem(6);
         box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
 
         @include breakpoint(medium) {
-          width: calc(150px * 1.2);
+          width: calc(rem(150) * 1.2);
         }
 
         @include breakpoint(large) {
-          width: calc(150px * 1.4);
+          width: calc(rem(150) * 1.4);
         }
 
         @include breakpoint(xlarge) {
