@@ -91,6 +91,24 @@ body {
   background-color: var(--app-bg);
 }
 
+@media (min-width: 40em) {
+  body {
+    max-width: 91%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 71.875em) {
+  body {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 87.5em) {
+  body {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -150,27 +168,6 @@ a:active {
 .main__container-movie {
   height: auto;
   margin-bottom: 0.75rem;
-  /*
-  &--poster {
-    cursor: pointer;
-    width: rem(150);
-    height: auto;
-    aspect-ratio: 2 / 3;
-    border-radius: rem(6);
-    box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
-
-    @include breakpoint(medium) {
-      width: calc(rem(150) * 1.2);
-    }
-
-    @include breakpoint(large) {
-      width: calc(rem(150) * 1.4);
-    }
-
-    @include breakpoint(xlarge) {
-    }
-  }
-  */
 }
 
 .main__container-movie--poster {
@@ -190,6 +187,11 @@ a:active {
 @media (min-width: 71.875em) {
   .main__container-movie--poster {
     width: 13.125rem;
+  }
+}
+@media (min-width: 87.5em) {
+  .main__container-movie--poster {
+    width: 18.75rem;
   }
 }
 .nav {

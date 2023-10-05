@@ -17,6 +17,21 @@ body {
   font-family: var(--font-roboto);
   font-size: rem(14);
   background-color: var(--app-bg);
+
+  @include breakpoint(medium) {
+    max-width: 91%;
+    margin: 0 auto;
+  }
+
+  @include breakpoint(large) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  @include breakpoint(xlarge) {
+    max-width: 75%;
+    margin: 0 auto;
+  }
 }
 
 a {
