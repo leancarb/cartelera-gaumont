@@ -150,11 +150,32 @@ a:active {
 .main__container-movie {
   height: auto;
   margin-bottom: 0.75rem;
+  /*
+  &--poster {
+    cursor: pointer;
+    width: rem(150);
+    height: auto;
+    aspect-ratio: 2 / 3;
+    border-radius: rem(6);
+    box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
+
+    @include breakpoint(medium) {
+      width: calc(rem(150) * 1.2);
+    }
+
+    @include breakpoint(large) {
+      width: calc(rem(150) * 1.4);
+    }
+
+    @include breakpoint(xlarge) {
+    }
+  }
+  */
 }
 
 .main__container-movie--poster {
   cursor: pointer;
-  width: 11.875rem;
+  width: 150px;
   height: auto;
   aspect-ratio: 2/3;
   border-radius: 0.375rem;
@@ -163,14 +184,12 @@ a:active {
 
 @media (min-width: 40em) {
   .main__container-movie--poster {
-    width: 18rem;
-    height: 27rem;
+    width: 180px;
   }
 }
 @media (min-width: 71.875em) {
   .main__container-movie--poster {
-    width: 21rem;
-    height: 31.5rem;
+    width: 210px;
   }
 }
 .nav {
