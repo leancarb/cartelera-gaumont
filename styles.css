@@ -85,6 +85,12 @@ html {
   padding: 0;
 }
 
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
 body {
   font-family: var(--font-roboto);
   font-size: 0.875rem;
@@ -156,6 +162,7 @@ a:active {
 .main {
   padding: 0 0.625rem;
   margin-bottom: 3.75rem;
+  align-self: center;
 }
 
 .main__container {
@@ -168,6 +175,7 @@ a:active {
 .main__container-movie {
   height: auto;
   margin-bottom: 0.75rem;
+  position: relative;
 }
 
 .main__container-movie--poster {

@@ -4,6 +4,9 @@
   padding: 0 rem(10);
   margin-bottom: rem(60);
 
+  // Centrar main
+  align-self: center;
+
   &__container {
     // display: grid;
     // grid-template-columns: repeat(2, 1fr);
@@ -17,6 +20,7 @@
       height: auto;
       margin-bottom: rem(12);
 
+      position: relative;
       &--poster {
         cursor: pointer;
         width: rem(150);
