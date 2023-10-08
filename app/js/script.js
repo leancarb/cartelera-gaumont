@@ -1,169 +1,193 @@
-// #Selection
+// #Selección
 const root = document.getElementById("root");
 const body = document.querySelector("body");
 
-// #Create
-// #Create header
+/** #Create
+ * Header
+ * Main
+ * Footer
+ * Nav
+ * Overlay
+ */
 const header = document.createElement("header");
 const headerLogo = document.createElement("img");
-// #Create main
+
 const main = document.createElement("main");
 const mainContainer = document.createElement("div");
-/*
-// #Create footer
-const footer = document.createElement("footer");
-const footerLogoContainer = document.createElement("div");
-const footerLogo = document.createElement("img");
-const footerInfoContainer = document.createElement("div");
-const footerInfoAddress = document.createElement("p");
-const footerInfoAddressSpan = document.createElement("span");
-const footerInfoPhone = document.createElement("p");
-const footerInfoPhoneSpan = document.createElement("span");
-const footerSocialContainer = document.createElement("div");*/
-const footerUL = document.createElement("ul");
-/* */
-// #Create nav
+
+// Footer
+// const footer = document.createElement("footer");
+// const footerLogoContainer = document.createElement("div");
+// const footerLogo = document.createElement("img");
+// const footerInfoContainer = document.createElement("div");
+// const footerInfoAddress = document.createElement("p");
+// const footerInfoAddressSpan = document.createElement("span");
+// const footerInfoPhone = document.createElement("p");
+// const footerInfoPhoneSpan = document.createElement("span");
+// const footerSocialContainer = document.createElement("div");
+// const footerUL = document.createElement("ul");
+
 const nav = document.createElement("nav");
 const navUL = document.createElement("ul");
-// #Create overlay
+
 const mainModal = document.createElement("div");
 const overlayButton = document.createElement("button");
 const overlayHeading = document.createElement("h2");
 const overlayParagraph = document.createElement("p");
 const mainOverlay = document.createElement("div");
 
-// #Append
-function appendChild() {
-  // #Append header
+/** #Append
+ * Header
+ * Main
+ * Nav
+ * Footer
+ * Overlay
+ */
+const appendChild = () => {
   root.appendChild(header);
   header.appendChild(headerLogo);
-  // #Append main
+
   root.appendChild(main);
   main.appendChild(mainContainer);
-  // #Append nav
+
   root.appendChild(nav);
   nav.appendChild(navUL);
-  /*
-  // #Append footer
-  root.appendChild(footer);
-  footer.appendChild(footerLogoContainer);
-  footerLogoContainer.appendChild(footerLogo);
-  footer.appendChild(footerInfoContainer);
-  footerInfoContainer.appendChild(footerInfoAddress);
+
+  // root.appendChild(footer);
+  // footer.appendChild(footerLogoContainer);
+  // footerLogoContainer.appendChild(footerLogo);
+  // footer.appendChild(footerInfoContainer);
+  // footerInfoContainer.appendChild(footerInfoAddress);
   // NO LO PUEDO PONER ADENTRO DEL p
-  footerInfoContainer.appendChild(footerInfoAddressSpan);
-  footerInfoContainer.appendChild(footerInfoPhone);
-  footerInfoPhone.appendChild(footerInfoPhoneSpan);
-  footer.appendChild(footerSocialContainer);
-  footerSocialContainer.appendChild(footerUL);
-  */
-  // #Append overlay
+  // footerInfoContainer.appendChild(footerInfoAddressSpan);
+  // footerInfoContainer.appendChild(footerInfoPhone);
+  // footerInfoPhone.appendChild(footerInfoPhoneSpan);
+  // footer.appendChild(footerSocialContainer);
+  // footerSocialContainer.appendChild(footerUL);
+
   main.appendChild(mainModal);
   mainModal.appendChild(overlayButton);
   mainModal.appendChild(overlayHeading);
   mainModal.appendChild(overlayParagraph);
   main.appendChild(mainOverlay);
-}
+};
 appendChild();
 
-// #Content
-function content() {
-  // #Content header
+/** #Content
+ * Header
+ * Main
+ * Nav
+ * Footer
+ * Overlay
+ */
+const content = () => {
   header.classList.add("header");
   headerLogo.src = "images/logos/GAUMONT_LOGO_azul.png";
   headerLogo.alt = "Logo Gaumont";
   headerLogo.classList.add("header__logo");
-  // #Content main
+
   main.classList.add("main");
   mainContainer.classList.add("main__container");
-  // #Content nav
+
   nav.classList.add("nav");
   navUL.classList.add("nav__list");
-  /*
-  // #Content footer
-  footer.classList.add("footer");
-  footerLogoContainer.classList.add("footer__img");
-  footerLogo.src = "images/logos/INCAA_LOGO_2022_AZUL_CMYK.png";
-  footerLogo.alt = "Logo footer";
-  footerLogo.classList.add("footer__img-logo");
-  footerInfoContainer.classList.add("footer__info");
-  footerInfoAddress.classList.add("footer__info--address");
-  footerInfoAddress.textContent = "dirección rivadavia 1635, caba";
-  footerInfoPhone.classList.add("footer__info--phone");
-  footerInfoPhone.textContent = "teléfono 3220-1921";
-  footerSocialContainer.classList.add("footer__social");
-  footerUL.classList.add("footer__social__list");
-  */
-  // #Content overlay
+
+  // footer.classList.add("footer");
+  // footerLogoContainer.classList.add("footer__img");
+  // footerLogo.src = "images/logos/INCAA_LOGO_2022_AZUL_CMYK.png";
+  // footerLogo.alt = "Logo footer";
+  // footerLogo.classList.add("footer__img-logo");
+  // footerInfoContainer.classList.add("footer__info");
+  // footerInfoAddress.classList.add("footer__info--address");
+  // footerInfoAddress.textContent = "dirección rivadavia 1635, caba";
+  // footerInfoPhone.classList.add("footer__info--phone");
+  // footerInfoPhone.textContent = "teléfono 3220-1921";
+  // footerSocialContainer.classList.add("footer__social");
+  // footerUL.classList.add("footer__social__list");
+
   mainModal.classList.add("modal", "hidden");
   overlayButton.type = "button";
   overlayButton.textContent = "X";
   overlayButton.classList.add("close-modal");
-
   mainOverlay.classList.add("overlay", "hidden");
-}
+};
 content();
 
 //////////////////////////////
 /////////// NAVBAR ///////////
 //////////////////////////////
 
-// Array con navbar items
+// Array para el navbar
+const navItems = [
+  { title: "cartelera", icon: "home" },
+  { title: "especiales", icon: "theaters" },
+  { title: "precios", icon: "wallet" },
+];
 
-// PLACEHOLDER PROVISORIO
-const navItems = ["cartelera", "especiales", "precios"];
-// Create UL y append
-
-// Loop para agregar cada array item al UL
+/** Loop para iterar por el objeto
+ * Create span, li y a
+ * Append span, li y a
+ * Content span, li y a
+ */
 navItems.map((i) => {
-  // Create LI, A
+  const navIcon = document.createElement("span");
   const navLI = document.createElement("li");
   const navAnchor = document.createElement("a");
-  // Poner text a cada A
+
+  navLI.appendChild(navIcon);
+  navLI.appendChild(navAnchor);
+  navUL.appendChild(navLI);
+
+  navIcon.innerHTML = `${i.icon}`;
+  navIcon.alt = `icono ${i.title}`;
+  navIcon.classList.add("nav__list-item--icon", "material-symbols-outlined");
+
   navLI.classList.add("nav__list-item");
   navAnchor.classList.add("nav__list-item--anchor");
   navAnchor.href = "#";
 
-  navAnchor.textContent = i;
-  // Append LI, A al UL
-  navUL.appendChild(navLI);
-  navLI.appendChild(navAnchor);
+  navAnchor.textContent = i.title;
 });
 
 ////////////////////////////
 /////////// MAIN ///////////
 ////////////////////////////
 
-// Funcion principal para crear la cartelera
-function createMovies(json) {
-  // JSON a Array
+/** Convertir JSON en Object
+ * @param json Convierte el JSON en objeto
+ * Itera por cada película y llama a la función createMovieContainer
+ */
+const createMovies = (json) => {
   const entries = Object.entries(json);
-  // Map para iterar
   entries.map((i) => {
-    // Cada iteración, crea element
     createMovieContainer(i);
   });
-}
+};
 
-// Función para poner el poster y título de cada película
-function createMovieContainer(movie) {
-  // Cada elemento son dos arrays:
-  // [0] es el nombre de la película
-  // [1] es el objeto
+/** Crear poster de cada película
+ * @param movie Cada película en el objeto
+ * De cada película crea dos arrays:
+ * [0] Es el nombre de la película (ex: "caminemos_valentina")
+ * [1] Todas las propiedades del objeto, accedo a este (movie[1])
+ *
+ * Crea y append un div por cada película
+ * Create y append img (poster)
+ * Content del poster
+ *
+ * Content del Overlay
+ *
+ * Listens clicks y abre el modal/overlay al tocar cada img
+ * Si es festival le pone un border bottom
+ */
+const createMovieContainer = (movie) => {
   const element = movie[1];
-  // #Create y append movie container (1 por cada película)
+
   const movieContainer = document.createElement("div");
   mainContainer.appendChild(movieContainer);
 
-  // #Create
   const moviePoster = document.createElement("img");
-  const movieDescription = document.createElement("div");
-
-  // #Append
   movieContainer.appendChild(moviePoster);
-  movieContainer.appendChild(movieDescription);
 
-  // #Content
   movieContainer.classList.add("main__container-movie");
   moviePoster.classList.add("main__container-movie--poster");
   moviePoster.src = element.poster;
@@ -173,16 +197,16 @@ function createMovieContainer(movie) {
   overlayHeading.style.textTransform = "capitalize";
   overlayParagraph.textContent = `Dirección: ${element.director}`;
 
-  // En cada película se abre el overlay
   movieContainer.addEventListener("click", openModal);
 
-  // Si es epecial le pone border bottom
   if (element.especial === true) {
     moviePoster.style.borderBottom = ".2rem solid #7a65ff";
   }
-}
+};
 
-// Llama al json
+/** Acceder al JSON
+ * Accede al JSON y llama createMovies() que convierte el JSON en Object, la cual llama createMovieContainer() que crea el poster por cada película
+ */
 fetch("data.json")
   .then((response) => response.json())
   .then((json) => {
@@ -193,6 +217,7 @@ fetch("data.json")
 ////////// FOOTER //////////
 ////////////////////////////
 
+/* Por ahora sin footer
 // Array redes
 footerSocials = ["twitter", "facebook", "instagram", "flickr", "youtube"];
 
@@ -209,36 +234,82 @@ for (let i = 0; i < footerSocials.length; i++) {
   footerLI.classList.add("footer__social__list-item");
   footerAnchor.classList.add("footer__social__list-item--anchor");
 }
+*/
 
 ////////////////////////////
 ////////// OVERLAY /////////
 ////////////////////////////
 
-// #Selection overlay
+// #Selección
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".close-modal");
 
-// Función abrir modal
+/** calculatePosition()
+ * Calcula la posición actual del scroll
+ * Calcula la altura de la ventana
+ * Calcula la altura del modal
+ * Cálculo para saber los px para centrar el modal
+ * Centra el modal verticalmente
+ * El top del overlay = la posición actual del scroll
+ * Altura del overlay = altura de la ventana 100%
+ *
+ */
+function calculatePosition() {
+  const scrollY = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const modalHeight = modal.offsetHeight;
+
+  const top = scrollY + windowHeight / 2 - modalHeight / 2;
+  modal.style.top = `${top}px`;
+
+  overlay.style.top = `${scrollY}px`;
+  overlay.style.height = `${windowHeight}px`;
+}
+
+/** openModal()
+ * Remueve la clase hidden al modal
+ * Remueve la clase hidden al overlay
+ * Previene el scroll cuando está abierto
+ */
 const openModal = function () {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
-  // Previene scroll
+  // Prevent scroll
   body.style.overflow = "hidden";
+
+  // Calculate and set the modal and overlay positions
+  calculatePosition();
 };
-// Función cerrar modal
-const closeModal = function () {
+
+/** closeModal()
+ * Añade la clase hidden al modal
+ * Añade la clase hidden al overlay
+ * Permite el scroll al cerrar
+ */
+const closeModal = () => {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
   body.style.overflow = "";
+
+  calculatePosition();
 };
 
-// Cierra overlay con botón
+/**
+ * This ensures that the calculateModalPosition function is called whenever the user scrolls the page. It keeps the modal and overlay centered even when the user scrolls.
+ * This event listener handles window resizing. When the user resizes the window, it recalculates the modal and overlay positions to keep them centered correctly.
+ */
+window.addEventListener("scroll", calculatePosition);
+window.addEventListener("resize", calculatePosition);
+
+/** Cerrar overlay
+ * #1 Click al botón (X)
+ * #2 Tocando afuera del modal (el overlay)
+ * #3 Tocando Escape
+ */
 btnCloseModal.addEventListener("click", closeModal);
-// Cierra overlay tocando afuera
 overlay.addEventListener("click", closeModal);
-// Cierra overlay con escape
-document.addEventListener("keydown", function (e) {
+document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && !modal.classList.contains("hidden")) {
     closeModal();
   }

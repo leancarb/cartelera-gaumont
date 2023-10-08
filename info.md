@@ -32,6 +32,9 @@ Footer #2
 Logo Gaumont, dirección, teléfono
 Links ul
 
+[(TMDB-api)]
+https://developer.themoviedb.org/reference/intro/getting-started
+
 ### Overlay
 
 Cuando se hace click, se abre el overlay.
