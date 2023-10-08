@@ -306,7 +306,6 @@ FONT SIZE SYSTEM (px)
 .nav__list-item--anchor {
   font-size: 0.75rem;
   color: var(--gray-nav);
-  letter-spacing: 0.1px;
 }
 
 .nav__list-item--anchor.active {
