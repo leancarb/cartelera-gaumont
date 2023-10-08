@@ -260,7 +260,7 @@ function calculatePosition() {
   const windowHeight = window.innerHeight;
   const modalHeight = modal.offsetHeight;
 
-  const top = scrollY + windowHeight / 2 - modalHeight / 2;
+  const top = scrollY + (windowHeight - modalHeight) / 2; // Ajustar el cálculo
   modal.style.top = `${top}px`;
 
   overlay.style.top = `${scrollY}px`;
@@ -291,11 +291,9 @@ const closeModal = () => {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
   body.style.overflow = "";
-
-  calculatePosition();
 };
 
-/**
+/** Listens the window
  * This ensures that the calculateModalPosition function is called whenever the user scrolls the page. It keeps the modal and overlay centered even when the user scrolls.
  * This event listener handles window resizing. When the user resizes the window, it recalculates the modal and overlay positions to keep them centered correctly.
  */
