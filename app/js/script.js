@@ -149,6 +149,21 @@ navItems.map((i) => {
   navAnchor.textContent = i.title;
 });
 
+const navListItem = document.querySelectorAll(".nav__list-item");
+const navListItemIcon = document.querySelectorAll(".nav__list-item--icon");
+const navListItemAnchor = document.querySelectorAll(".nav__list-item--anchor ");
+
+// Cuando hago click en el list item agrega la clase active al icon y al anchor, elimina la clase a los demas
+navListItem.forEach((item) => {
+  item.addEventListener("click", () => {
+    item.classList.add("active");
+  });
+});
+
+// Por default le agrega la clase active al icono y al anchor
+document.querySelector(".nav__list-item--icon").classList.add("active");
+document.querySelector(".nav__list-item--anchor").classList.add("active");
+
 ////////////////////////////
 /////////// MAIN ///////////
 ////////////////////////////
@@ -255,7 +270,7 @@ const btnCloseModal = document.querySelector(".close-modal");
  * Altura del overlay = altura de la ventana 100%
  *
  */
-function calculatePosition() {
+const calculatePosition = () => {
   const scrollY = window.scrollY;
   const windowHeight = window.innerHeight;
   const modalHeight = modal.offsetHeight;
@@ -265,14 +280,14 @@ function calculatePosition() {
 
   overlay.style.top = `${scrollY}px`;
   overlay.style.height = `${windowHeight}px`;
-}
+};
 
 /** openModal()
  * Remueve la clase hidden al modal
  * Remueve la clase hidden al overlay
  * Previene el scroll cuando está abierto
  */
-const openModal = function () {
+const openModal = () => {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
   // Prevent scroll

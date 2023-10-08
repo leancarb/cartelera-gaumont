@@ -276,11 +276,31 @@ FONT SIZE SYSTEM (px)
   text-transform: capitalize;
   text-align: center;
   color: var(--gray-nav);
+  cursor: pointer;
+  /*
+  // WHEN ACTIVE
+  &:first-of-type span {
+    background-color: var(--key-green-light);
+    font-variation-settings: "FILL" 1;
+    color: var(--black-blue);
+  }
+  // WHEN ACTIVE
+  &:first-of-type a {
+    font-weight: 500;
+    color: var(--black-blue);
+  }
+  */
 }
 
 .nav__list-item--icon {
   padding: 0.25rem 1.25rem;
   border-radius: 62.4375rem;
+}
+
+.nav__list-item--icon.active {
+  background-color: var(--key-green-light);
+  font-variation-settings: "FILL" 1;
+  color: var(--black-blue);
 }
 
 .nav__list-item--anchor {
@@ -289,13 +309,7 @@ FONT SIZE SYSTEM (px)
   letter-spacing: 0.4px;
 }
 
-.nav__list-item:first-of-type span {
-  background-color: var(--key-green-light);
-  font-variation-settings: "FILL" 1;
-  color: var(--black-blue);
-}
-
-.nav__list-item:first-of-type a {
+.nav__list-item--anchor.active {
   font-weight: 500;
   color: var(--black-blue);
 }
