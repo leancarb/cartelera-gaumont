@@ -1,5 +1,6 @@
 @use "../util" as *;
 
+/*
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -26,4 +27,17 @@
       }
     }
   }
+}
+*/
+
+.footer {
+  @include breakpoint(medium) {
+    display: block;
+  }
+
+  // border: 3px solid yellow;
+  display: none;
+  background-color: #eee;
+  text-align: center;
+  padding: rem(10);
 }

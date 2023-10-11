@@ -8,53 +8,8 @@ FONT SIZE SYSTEM (px)
 
 @use "../util" as *;
 
-html {
-  font-size: 100%;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
 #root {
-  // Centrar main
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
 }
-body {
-  font-family: var(--font-roboto);
-  font-size: rem(14);
-  background-color: var(--app-bg);
-
-  @include breakpoint(medium) {
-    max-width: 91%;
-    margin: 0 auto;
-  }
-
-  @include breakpoint(large) {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-
-  @include breakpoint(xlarge) {
-    max-width: 75%;
-    margin: 0 auto;
-  }
-}
-
-a {
-  text-decoration: none;
-}
-
-ul,
-li {
-  list-style: none;
-}
-
-// sass --watch app/scss/styles.scss:styles.css

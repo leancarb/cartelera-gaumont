@@ -1,168 +1,143 @@
-// #Selección
-const root = document.getElementById("root");
 const body = document.querySelector("body");
-
-/** #Create
- * Header
- * Main
- * Footer
- * Nav
- * Overlay
- */
+const root = document.getElementById("root");
+//////////////
+// Create
+//////////////
+// Header
 const header = document.createElement("header");
+const headerContainerLogo = document.createElement("div");
 const headerLogo = document.createElement("img");
+const headerNavbar = document.createElement("nav");
+const headerNavbarList = document.createElement("ul");
 
+// Main
 const main = document.createElement("main");
 const mainContainer = document.createElement("div");
-
-// Footer
-// const footer = document.createElement("footer");
-// const footerLogoContainer = document.createElement("div");
-// const footerLogo = document.createElement("img");
-// const footerInfoContainer = document.createElement("div");
-// const footerInfoAddress = document.createElement("p");
-// const footerInfoAddressSpan = document.createElement("span");
-// const footerInfoPhone = document.createElement("p");
-// const footerInfoPhoneSpan = document.createElement("span");
-// const footerSocialContainer = document.createElement("div");
-// const footerUL = document.createElement("ul");
-
-const nav = document.createElement("nav");
-const navUL = document.createElement("ul");
-
+// Modal
 const mainModal = document.createElement("div");
-const overlayButton = document.createElement("button");
-const overlayHeading = document.createElement("h2");
-const overlayParagraph = document.createElement("p");
+const modalButton = document.createElement("button");
+const modalHeading = document.createElement("h2");
+const modalParagraph = document.createElement("p");
+/* Falta agregar todo lo que vaya en el modal */
+// Overlay
 const mainOverlay = document.createElement("div");
 
-/** #Append
- * Header
- * Main
- * Nav
- * Footer
- * Overlay
- */
-const appendChild = () => {
-  root.appendChild(header);
-  header.appendChild(headerLogo);
+// Navbar Mobile
+const navbar = document.createElement("nav");
+const navbarList = document.createElement("ul");
 
-  root.appendChild(main);
-  main.appendChild(mainContainer);
+// Footer
+const footer = document.createElement("footer");
 
-  root.appendChild(nav);
-  nav.appendChild(navUL);
+//////////////
+// Append
+//////////////
+// Header
+root.appendChild(header);
+header.appendChild(headerContainerLogo);
+headerContainerLogo.appendChild(headerLogo);
+header.appendChild(headerNavbar);
+headerNavbar.appendChild(headerNavbarList);
 
-  // root.appendChild(footer);
-  // footer.appendChild(footerLogoContainer);
-  // footerLogoContainer.appendChild(footerLogo);
-  // footer.appendChild(footerInfoContainer);
-  // footerInfoContainer.appendChild(footerInfoAddress);
-  // NO LO PUEDO PONER ADENTRO DEL p
-  // footerInfoContainer.appendChild(footerInfoAddressSpan);
-  // footerInfoContainer.appendChild(footerInfoPhone);
-  // footerInfoPhone.appendChild(footerInfoPhoneSpan);
-  // footer.appendChild(footerSocialContainer);
-  // footerSocialContainer.appendChild(footerUL);
+// Main
+root.appendChild(main);
+main.appendChild(mainContainer);
+main.appendChild(mainModal);
+main.appendChild(mainOverlay);
+// Modal
+main.appendChild(mainModal);
+mainModal.appendChild(modalButton);
+mainModal.appendChild(modalHeading);
+mainModal.appendChild(modalParagraph);
+main.appendChild(mainOverlay);
 
-  main.appendChild(mainModal);
-  mainModal.appendChild(overlayButton);
-  mainModal.appendChild(overlayHeading);
-  mainModal.appendChild(overlayParagraph);
-  main.appendChild(mainOverlay);
-};
-appendChild();
+// Navbar Mobile
+root.appendChild(navbar);
+navbar.appendChild(navbarList);
 
-/** #Content
- * Header
- * Main
- * Nav
- * Footer
- * Overlay
- */
-const content = () => {
-  header.classList.add("header");
-  headerLogo.src = "images/logos/GAUMONT_LOGO_azul.png";
-  headerLogo.alt = "Logo Gaumont";
-  headerLogo.classList.add("header__logo");
+// Footer
+root.appendChild(footer);
 
-  main.classList.add("main");
-  mainContainer.classList.add("main__container");
+//////////////
+// Content
+//////////////
+// Header
+header.classList.add("header");
+headerContainerLogo.classList.add("header__container");
+headerLogo.src = "images/logos/GAUMONT_LOGO_azul.png";
+headerLogo.alt = "Logo Gaumont";
+headerLogo.classList.add("header__container-logo", "logo");
 
-  nav.classList.add("nav");
-  navUL.classList.add("nav__list");
+headerNavbar.classList.add("header__navbar");
+headerNavbarList.classList.add("header__navbar-list");
 
-  // footer.classList.add("footer");
-  // footerLogoContainer.classList.add("footer__img");
-  // footerLogo.src = "images/logos/INCAA_LOGO_2022_AZUL_CMYK.png";
-  // footerLogo.alt = "Logo footer";
-  // footerLogo.classList.add("footer__img-logo");
-  // footerInfoContainer.classList.add("footer__info");
-  // footerInfoAddress.classList.add("footer__info--address");
-  // footerInfoAddress.textContent = "dirección rivadavia 1635, caba";
-  // footerInfoPhone.classList.add("footer__info--phone");
-  // footerInfoPhone.textContent = "teléfono 3220-1921";
-  // footerSocialContainer.classList.add("footer__social");
-  // footerUL.classList.add("footer__social__list");
+// Main
+main.classList.add("main");
+mainContainer.classList.add("main__container");
+// Modal
+mainModal.classList.add("modal", "hidden");
+modalButton.type = "button";
+modalButton.textContent = "X";
+modalButton.classList.add("close-modal");
+mainOverlay.classList.add("overlay", "hidden");
 
-  mainModal.classList.add("modal", "hidden");
-  overlayButton.type = "button";
-  overlayButton.textContent = "X";
-  overlayButton.classList.add("close-modal");
-  mainOverlay.classList.add("overlay", "hidden");
-};
-content();
+// Navbar Mobile
+navbar.classList.add("nav");
+navbarList.classList.add("nav__list");
+
+// Footer
+footer.classList.add("footer");
+footer.innerHTML = `&copy; Cartelera Gaumont 2023`;
 
 //////////////////////////////
 /////////// NAVBAR ///////////
 //////////////////////////////
 
-// Array para el navbar
-const navItems = [
+const headerNavbarItems = [
   { title: "cartelera", icon: "home" },
   { title: "especiales", icon: "theaters" },
   { title: "precios", icon: "wallet" },
 ];
 
-/** Loop para iterar por el objeto
- * Create span, li y a
- * Append span, li y a
- * Content span, li y a
- */
-navItems.map((i) => {
-  const navIcon = document.createElement("span");
-  const navLI = document.createElement("li");
-  const navAnchor = document.createElement("a");
+headerNavbarItems.map((i) => {
+  const headerNavIcon = document.createElement("span");
+  const headerNavLI = document.createElement("li");
+  const headerNavAnchor = document.createElement("a");
 
-  navLI.appendChild(navIcon);
-  navLI.appendChild(navAnchor);
-  navUL.appendChild(navLI);
+  headerNavLI.appendChild(headerNavIcon);
+  headerNavLI.appendChild(headerNavAnchor);
+  headerNavbarList.appendChild(headerNavLI);
 
-  navIcon.innerHTML = `${i.icon}`;
-  navIcon.alt = `icono ${i.title}`;
-  navIcon.classList.add("nav__list-item--icon", "material-symbols-outlined");
+  headerNavIcon.innerHTML = `${i.icon}`;
+  headerNavIcon.alt = `icono ${i.title}`;
+  headerNavIcon.classList.add(
+    "header__navbar-list-item--icon",
+    "material-symbols-outlined",
+    "icon"
+  );
 
-  navLI.classList.add("nav__list-item");
-  navAnchor.classList.add("nav__list-item--anchor");
-  navAnchor.href = "#";
+  headerNavLI.classList.add("header__navbar-list-item", "list-item");
+  headerNavAnchor.classList.add("header__navbar-list-item--anchor", "anchor");
+  headerNavAnchor.href = "#";
 
-  navAnchor.textContent = i.title;
+  headerNavAnchor.textContent = i.title;
 });
 
-const navListItem = document.querySelectorAll(".nav__list-item");
-const navListItemIcon = document.querySelectorAll(".nav__list-item--icon");
-const navListItemAnchor = document.querySelectorAll(".nav__list-item--anchor ");
+// Codigo viejo
+// const navListItem = document.querySelectorAll(".nav__list-item");
+// const navListItemIcon = document.querySelectorAll(".nav__list-item--icon");
+// const navListItemAnchor = document.querySelectorAll(".nav__list-item--anchor ");
 
-// Cuando hago click en el list item agrega la clase active al icon y al anchor, elimina la clase a los demas
-navListItem.forEach((item) => {
-  item.addEventListener("click", () => {
-    item.classList.add("active");
-  });
-});
+// // Cuando hago click en el list item agrega la clase active al icon y al anchor, elimina la clase a los demas
+// navListItem.forEach((item) => {
+//   item.addEventListener("click", () => {
+//     item.classList.add("active");
+//   });
+// });
 
-// Por default le agrega la clase active al icono y al anchor
-document.querySelector(".nav__list-item--icon").classList.add("active");
-document.querySelector(".nav__list-item--anchor").classList.add("active");
+// // Por default le agrega la clase active al icono y al anchor
+// document.querySelector(".nav__list-item--icon").classList.add("active");
+// document.querySelector(".nav__list-item--anchor").classList.add("active");
 
 ////////////////////////////
 /////////// MAIN ///////////
@@ -208,9 +183,9 @@ const createMovieContainer = (movie) => {
   moviePoster.src = element.poster;
   moviePoster.alt = `${element.titulo} poster`;
 
-  overlayHeading.textContent = `${element.titulo}`;
-  overlayHeading.style.textTransform = "capitalize";
-  overlayParagraph.textContent = `Dirección: ${element.director}`;
+  modalHeading.textContent = `${element.titulo}`;
+  modalHeading.style.textTransform = "capitalize";
+  modalParagraph.textContent = `Dirección: ${element.director}`;
 
   movieContainer.addEventListener("click", openModal);
 
@@ -228,32 +203,60 @@ fetch("data.json")
     createMovies(json);
   });
 
-////////////////////////////
-////////// FOOTER //////////
-////////////////////////////
+//////////////////////////////
+///////// NAV MOBILE /////////
+//////////////////////////////
 
-/* Por ahora sin footer
-// Array redes
-footerSocials = ["twitter", "facebook", "instagram", "flickr", "youtube"];
+headerNavbarItems.map((i) => {
+  const navLI = document.createElement("li");
+  const navIcon = document.createElement("span");
+  const navAnchor = document.createElement("a");
 
-// Loop para agregar cada array item al UL
-for (let i = 0; i < footerSocials.length; i++) {
-  // #Create
-  const footerLI = document.createElement("li");
-  const footerAnchor = document.createElement("a");
-  // #Append
-  footerUL.appendChild(footerLI);
-  footerLI.appendChild(footerAnchor);
-  // #Content
-  footerAnchor.textContent = footerSocials[i];
-  footerLI.classList.add("footer__social__list-item");
-  footerAnchor.classList.add("footer__social__list-item--anchor");
-}
-*/
+  navLI.appendChild(navIcon);
+  navLI.appendChild(navAnchor);
+  navbarList.appendChild(navLI);
 
-////////////////////////////
-////////// OVERLAY /////////
-////////////////////////////
+  navIcon.innerHTML = `${i.icon}`;
+  navIcon.alt = `icono ${i.title}`;
+  navIcon.classList.add(
+    "nav__list-item--icon",
+    "material-symbols-outlined",
+    "icon"
+  );
+
+  navLI.classList.add("nav__list-item", "list-item");
+  navAnchor.classList.add("nav__list-item--anchor", "anchor");
+  navAnchor.href = "#";
+
+  navAnchor.textContent = i.title;
+});
+
+// ////////////////////////////
+// ////////// FOOTER //////////
+// ////////////////////////////
+
+// /* Footer viejo
+// // Array redes
+// footerSocials = ["twitter", "facebook", "instagram", "flickr", "youtube"];
+
+// // Loop para agregar cada array item al UL
+// for (let i = 0; i < footerSocials.length; i++) {
+//   // #Create
+//   const footerLI = document.createElement("li");
+//   const footerAnchor = document.createElement("a");
+//   // #Append
+//   footerUL.appendChild(footerLI);
+//   footerLI.appendChild(footerAnchor);
+//   // #Content
+//   footerAnchor.textContent = footerSocials[i];
+//   footerLI.classList.add("footer__social__list-item");
+//   footerAnchor.classList.add("footer__social__list-item--anchor");
+// }
+// */
+
+// ////////////////////////////
+// ////////// OVERLAY /////////
+// ////////////////////////////
 
 // #Selección
 const modal = document.querySelector(".modal");

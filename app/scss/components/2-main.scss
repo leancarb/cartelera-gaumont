@@ -9,10 +9,15 @@ FONT SIZE SYSTEM (px)
 */
 
 .main {
-  padding: 0 rem(12) rem(96);
-
-  // Centrar main
+  // border: 3px solid red;
+  max-width: 80%;
+  margin-inline: auto;
   align-self: center;
+  padding: rem(20) 0 rem(120) 0;
+
+  @include breakpoint(medium) {
+    padding: rem(20) 0;
+  }
 
   &__container {
     display: flex;
@@ -21,13 +26,10 @@ FONT SIZE SYSTEM (px)
     gap: rem(12);
 
     &-movie {
-      height: auto;
+      // outline: 1px solid greenyellow;
 
-      position: relative;
       &--poster {
-        cursor: pointer;
         width: rem(150);
-        height: auto;
         aspect-ratio: 2 / 3;
         border-radius: rem(6);
         box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
