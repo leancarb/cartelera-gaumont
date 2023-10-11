@@ -29,21 +29,21 @@ FONT SIZE SYSTEM (px)
       // outline: 1px solid greenyellow;
 
       &--poster {
-        width: rem(150);
+        width: rem(140);
         aspect-ratio: 2 / 3;
         border-radius: rem(6);
         box-shadow: 0 rem(10) rem(25) 0 rgba(0, 0, 0, 0.15);
 
         @include breakpoint(medium) {
-          width: calc(rem(150) * 1.2);
+          width: calc(rem(140) * 1.2);
         }
 
         @include breakpoint(large) {
-          width: calc(rem(150) * 1.4);
+          width: calc(rem(140) * 1.4);
         }
 
         @include breakpoint(xlarge) {
-          width: calc(rem(150) * 2);
+          width: calc(rem(140) * 2);
         }
       }
     }
