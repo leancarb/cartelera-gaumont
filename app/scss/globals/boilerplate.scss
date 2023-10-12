@@ -13,3 +13,7 @@ FONT SIZE SYSTEM (px)
   grid-template-rows: auto 1fr auto;
   height: 100vh;
 }
+
+body {
+  background: var(--clr-background);
+}

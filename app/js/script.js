@@ -216,6 +216,8 @@ headerNavbarItems.map((i) => {
   navLI.appendChild(navAnchor);
   navbarList.appendChild(navLI);
 
+  // Agarrar el primer LI del nav y ponerle la clase active
+
   navIcon.innerHTML = `${i.icon}`;
   navIcon.alt = `icono ${i.title}`;
   navIcon.classList.add(
@@ -229,7 +231,27 @@ headerNavbarItems.map((i) => {
   navAnchor.href = "#";
 
   navAnchor.textContent = i.title;
+
+  // Agregar clase active
+
+  navLI.addEventListener("click", () => {
+    const eachIcon = document.querySelectorAll(".nav__list-item--icon");
+    const eachAnchor = document.querySelectorAll(".nav__list-item--anchor");
+
+    eachIcon.forEach((element) => {
+      element.classList.remove("active");
+    });
+
+    eachAnchor.forEach((element) => {
+      element.classList.remove("active");
+    });
+
+    navIcon.classList.add("active");
+    navAnchor.classList.add("active");
+  });
 });
+
+// window.onload(firstLI.classList.add("active"));
 
 // ////////////////////////////
 // ////////// FOOTER //////////
