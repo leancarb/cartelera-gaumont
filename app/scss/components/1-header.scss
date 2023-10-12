@@ -13,15 +13,12 @@ FONT SIZE SYSTEM (px)
     justify-content: space-between;
   }
 
-  // border: 3px solid orange;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: rem(36) rem(64);
-
-  background: #eee;
+  padding: rem(24) 0;
+  background: var(--clr-gray-nav);
 
   &__container {
     & .logo {

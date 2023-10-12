@@ -84,7 +84,6 @@ FONT SIZE SYSTEM (px)
 
 .nav {
   // border: 3px solid blue;
-
   @include breakpoint(medium) {
     display: none;
     position: static;
@@ -93,24 +92,30 @@ FONT SIZE SYSTEM (px)
   position: fixed;
   inset: auto 0 0 0; /* top: auto, right: 0, bottom: 0, left: 0*/
   height: 9.5%;
-  background: #eee;
+  background: var(--clr-gray-nav);
 
   &__list {
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: rem(20) 0;
+    align-items: center;
+    // padding: rem(20) 0;
 
     &-item {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       gap: rem(10);
 
-      // & .icon {
-      // }
+      height: 100%;
+
+      & .icon {
+        color: #49494b;
+      }
       & .anchor {
-        text-transform: uppercase;
-        color: var(--clr-black);
+        text-transform: capitalize;
+        color: #49494b;
       }
     }
   }

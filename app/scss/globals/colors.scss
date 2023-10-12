@@ -1,19 +1,19 @@
 :root {
   // COLORS
   // Palette: https://coolors.co/eef2fc-dde5f8-92a8dd-1f419a-223d81-060e23-030711
-  --clr-white: #fff;
-  --clr-white-blue: #eef2fc;
-  --clr-very-light-blue: #dce4f9;
-  --clr-light-blue: #92a8dd;
-  --clr-primary-blue: #1f419a;
-  --clr-dark-blur: #223d81;
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-white-blue: hsl(223, 70%, 96%);
+  --clr-very-light-blue: hsl(223, 71%, 92%);
+  --clr-light-blue: hsl(222, 52%, 72%);
+  --clr-primary-blue: hsl(223, 66%, 36%);
+  --clr-dark-blur: hsl(223, 58%, 32%);
   --clr-very-dark-blue: #060e23;
   --clr-black-blue: #030711;
-  --clr-black: #000;
+  --clr-black: hsl(0, 0%, 0%);
 
-  --clr-gray-nav: #656e6b;
-  --clr-key-green: #59c0ab;
-  --clr-key-green-light: #c4e9e1;
-  --clr-key-orange: #ff663c;
-  --clr-key-yellow: #f3c567;
+  --clr-gray-nav: hsl(100, 10%, 94%);
+  --clr-key-green: hsl(168, 45%, 55%);
+  --clr-key-green-light: hsl(167, 46%, 84%);
+  --clr-key-orange: hsl(13, 100%, 62%);
+  --clr-key-yellow: hsl(40, 85%, 68%);
 }

@@ -13,7 +13,7 @@ FONT SIZE SYSTEM (px)
   max-width: 80%;
   margin-inline: auto;
   align-self: center;
-  padding: rem(20) 0 rem(120) 0;
+  padding-bottom: rem(120);
 
   @include breakpoint(medium) {
     padding: rem(20) 0;
