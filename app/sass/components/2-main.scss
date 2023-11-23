@@ -93,15 +93,16 @@ FONT SIZE SYSTEM (px)
 .selection {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto rem(48) rem(64) rem(36) auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, auto);
   gap: rem(12);
 
   @include breakpoint(medium) {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto rem(48) rem(64) rem(36) auto;
   }
   @include breakpoint(large) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: rem(48) auto rem(48) rem(64) rem(36) auto;
   }
 
   &-container {
@@ -113,14 +114,17 @@ FONT SIZE SYSTEM (px)
   &-movie {
     &--poster {
       border-radius: rem(4);
-      width: rem(250);
+      max-width: rem(250);
       justify-self: center;
-
       grid-row: 1/2;
 
+      @include breakpoint(medium) {
+        grid-row: 1/2;
+      }
+
       @include breakpoint(large) {
-        width: rem(400);
         grid-row: 1/3;
+        max-width: rem(400);
       }
     }
   }
@@ -129,7 +133,12 @@ FONT SIZE SYSTEM (px)
     &--title {
       text-transform: capitalize;
 
-      grid-row: 1/2;
+      grid-row: 2/3;
+      grid-column: 1/-1;
+      @include breakpoint(medium) {
+        grid-row: 1/2;
+        grid-column: 2/3;
+      }
     }
     &__container {
       display: flex;
@@ -138,9 +147,12 @@ FONT SIZE SYSTEM (px)
       border-top: 1px solid #ddd;
       padding-block: rem(8);
 
-      grid-row: 3/4;
+      grid-row: 4/5;
       grid-column: 1/-1;
 
+      @include breakpoint(medium) {
+        grid-row: 3/4;
+      }
       @at-root .info-container {
         display: flex;
         flex-direction: column;
@@ -164,10 +176,15 @@ FONT SIZE SYSTEM (px)
     }
     &--sinopsis {
       color: var(--clr-dark-gray);
+      text-align: justify;
 
-      grid-row: 2/3;
+      grid-row: 3/4;
       grid-column: 1/-1;
 
+      @include breakpoint(medium) {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+      }
       @include breakpoint(large) {
         grid-column: 2/3;
       }
@@ -177,18 +194,18 @@ FONT SIZE SYSTEM (px)
       display: flex;
       flex-wrap: wrap;
       gap: rem(4);
-
-      @include breakpoint(medium) {
-        gap: rem(24);
-      }
+      padding-block: rem(12);
 
       align-items: center;
       cursor: pointer;
       border-block: 1px solid #ddd;
 
-      grid-row: 4/5;
+      grid-row: 5/6;
       grid-column: 1/-1;
 
+      @include breakpoint(medium) {
+        grid-row: 4/5;
+      }
       & li {
         padding-inline: rem(16);
         display: flex;
@@ -228,13 +245,15 @@ FONT SIZE SYSTEM (px)
 
     &__horarios {
       display: flex;
-      grid-row: 5/6;
+      grid-row: 6/7;
       grid-column: 1/-1;
       font-size: rem(14);
       color: var(--clr-darker-gray);
+      height: rem(36);
 
-      @include breakpoint(large) {
+      @include breakpoint(medium) {
         gap: rem(12);
+        grid-row: 5/6;
       }
 
       & li {
@@ -243,7 +262,6 @@ FONT SIZE SYSTEM (px)
         height: 100%;
         padding-inline: rem(48);
         border-radius: rem(999);
-        border: 1px solid var(--clr-light-blue);
         transition: var(--transition-default);
 
         display: flex;
@@ -251,7 +269,7 @@ FONT SIZE SYSTEM (px)
         justify-content: center;
 
         &:hover {
-          background-color: var(--clr-light-blue);
+          background-color: red;
         }
 
         &.active {
@@ -267,10 +285,15 @@ FONT SIZE SYSTEM (px)
       justify-content: space-between;
       font-size: rem(14);
       text-align: center;
-      cursor: pointer;
+      border-top: 1px solid var(--clr-lighter-gray);
+      padding-top: rem(12);
 
-      grid-row: 6/7;
-      grid-column: 1/-1;
+      cursor: pointer;
+      grid-row: 7/8;
+      @include breakpoint(medium) {
+        grid-row: 6/7;
+        grid-column: 1/-1;
+      }
     }
     &--back {
       border: 1px solid var(--clr-primary-blue);
@@ -287,14 +310,15 @@ FONT SIZE SYSTEM (px)
     }
 
     &--comprar {
-      background: var(--clr-primary-blue);
+      background: var(--clr-dark-blue);
       color: var(--clr-white);
       padding: rem(12) 0;
       width: 100%;
       border-radius: rem(999);
+      transition: var(--transition-default);
 
       &:hover {
-        background-color: var(--clr-dark-blue);
+        background-color: var(--clr-primary-blue);
       }
     }
   }
