@@ -69,7 +69,7 @@ const createCiclosImages = (ciclo) => {
   mainCiclosContainer.appendChild(cicloImages);
 
   cicloImages.src = `${element.image}`;
-  // cicloImages.alt = `${element.titulo} banner`;
+  cicloImages.alt = `${element.titulo} banner`;
   cicloImages.classList.add("ciclo");
 };
 
