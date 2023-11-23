@@ -94,9 +94,12 @@ FONT SIZE SYSTEM (px)
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: rem(36) auto rem(48) rem(64) rem(36) auto;
+  grid-template-rows: auto auto rem(48) rem(64) rem(36) auto;
   gap: rem(12);
 
+  @include breakpoint(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
   @include breakpoint(large) {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -114,7 +117,7 @@ FONT SIZE SYSTEM (px)
       width: rem(250);
       justify-self: center;
 
-      grid-row: 1/3;
+      grid-row: 1/2;
 
       @include breakpoint(large) {
         width: rem(400);
@@ -164,16 +167,20 @@ FONT SIZE SYSTEM (px)
       color: var(--clr-dark-gray);
 
       grid-row: 2/3;
+      grid-column: 1/-1;
+
+      @include breakpoint(large) {
+        grid-column: 2/3;
+      }
     }
 
     &__fechas {
       display: flex;
       flex-wrap: wrap;
+      gap: rem(4);
 
-      @include breakpoint(large) {
-        gap: rem(12);
-
-        padding-inline: rem(36);
+      @include breakpoint(medium) {
+        gap: rem(24);
       }
 
       align-items: center;
