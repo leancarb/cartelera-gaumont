@@ -105,7 +105,6 @@ FONT SIZE SYSTEM (px)
   }
 
   &-container {
-    max-width: 50%;
     @include breakpoint(large) {
       max-width: 50%;
     }

@@ -376,10 +376,6 @@ FONT SIZE SYSTEM (px)
     grid-template-columns: repeat(2, 1fr);
   }
 }
-.selection-container {
-  max-width: 50%;
-}
-
 @media (min-width: 71.875em) {
   .selection-container {
     max-width: 50%;
