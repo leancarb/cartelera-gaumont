@@ -48,6 +48,7 @@ descripcionCiclo.classList.add("ciclos-information--description");
 fechaInicioCiclo.classList.add("ciclos-information--inicio");
 fechaFinalCiclo.classList.add("ciclos-information--final");
 btnVolverCiclo.classList.add("ciclos-information--btn");
+btnVolverCiclo.href = "#";
 
 //////////////////////////////////
 //              JS              //
