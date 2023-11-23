@@ -714,7 +714,7 @@ FONT SIZE SYSTEM (px)
 
 @media (min-width: 71.875em) {
   .ciclos-container .ciclo {
-    width: 80%;
+    width: 100%;
     max-width: 93.75rem;
   }
 }

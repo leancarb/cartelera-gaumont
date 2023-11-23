@@ -435,7 +435,7 @@ FONT SIZE SYSTEM (px)
       cursor: pointer;
 
       @include breakpoint(large) {
-        width: 80%;
+        width: 100%;
         max-width: rem(1500);
       }
 
