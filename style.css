@@ -469,8 +469,9 @@ FONT SIZE SYSTEM (px)
 .selection-information__fechas {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem;
+  gap: 1.25rem;
   padding-block: 0.75rem;
+  margin-bottom: -0.375rem;
   align-items: center;
   cursor: pointer;
   border-block: 1px solid #ddd;
@@ -542,6 +543,7 @@ FONT SIZE SYSTEM (px)
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid var(--clr-light-blue);
 }
 
 .selection-information__horarios li:hover {
@@ -551,6 +553,7 @@ FONT SIZE SYSTEM (px)
 .selection-information__horarios li.active {
   background-color: var(--clr-primary-blue);
   color: var(--clr-white-blue);
+  border: none;
 }
 
 .selection-information__btns {

@@ -193,8 +193,9 @@ FONT SIZE SYSTEM (px)
     &__fechas {
       display: flex;
       flex-wrap: wrap;
-      gap: rem(4);
+      gap: rem(20);
       padding-block: rem(12);
+      margin-bottom: rem(-6);
 
       align-items: center;
       cursor: pointer;
@@ -268,6 +269,8 @@ FONT SIZE SYSTEM (px)
         align-items: center;
         justify-content: center;
 
+        border: 2px solid var(--clr-light-blue);
+
         &:hover {
           background-color: var(--clr-very-light-blue);
         }
@@ -275,6 +278,7 @@ FONT SIZE SYSTEM (px)
         &.active {
           background-color: var(--clr-primary-blue);
           color: var(--clr-white-blue);
+          border: none;
         }
       }
     }
