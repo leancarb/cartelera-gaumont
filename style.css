@@ -545,7 +545,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .selection-information__horarios li:hover {
-  background-color: red;
+  background-color: var(--clr-very-light-blue);
 }
 
 .selection-information__horarios li.active {

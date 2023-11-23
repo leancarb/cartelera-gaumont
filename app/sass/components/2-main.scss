@@ -269,7 +269,7 @@ FONT SIZE SYSTEM (px)
         justify-content: center;
 
         &:hover {
-          background-color: red;
+          background-color: var(--clr-very-light-blue);
         }
 
         &.active {
