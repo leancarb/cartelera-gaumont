@@ -357,7 +357,7 @@ FONT SIZE SYSTEM (px)
 
   @include breakpoint(large) {
     width: 50%;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding-block: rem(24);
   }
@@ -366,7 +366,6 @@ FONT SIZE SYSTEM (px)
   background-color: var(--clr-white);
   border: rem(2) dotted var(--clr-light-blue);
   border-radius: rem(12);
-  padding: 0 5% 5%;
 }
 .felicidades__incaa-container {
   align-self: center;
@@ -376,7 +375,6 @@ FONT SIZE SYSTEM (px)
     opacity: 75%;
 
     @include breakpoint(large) {
-      width: 50%;
       padding-block: 15%;
       transform: rotate(-90deg);
     }

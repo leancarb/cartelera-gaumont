@@ -630,13 +630,12 @@ FONT SIZE SYSTEM (px)
   background-color: var(--clr-white);
   border: 0.125rem dotted var(--clr-light-blue);
   border-radius: 0.75rem;
-  padding: 0 5% 5%;
 }
 
 @media (min-width: 71.875em) {
   .felicidades {
     width: 50%;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     padding-block: 1.5rem;
   }
@@ -652,7 +651,6 @@ FONT SIZE SYSTEM (px)
 
 @media (min-width: 71.875em) {
   .felicidades__incaa-container img {
-    width: 50%;
     padding-block: 15%;
     transform: rotate(-90deg);
   }
