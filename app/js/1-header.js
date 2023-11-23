@@ -92,6 +92,18 @@ headerContainerLogo.addEventListener("click", () => {
     headerNavbarIcons[0].classList.add("active");
     headerNavbarTexts[0].classList.add("active");
   });
+
+  // Cambiar la clase active cuando toco el logo
+  navbarItems.forEach((item, index) => {
+    navbarIcons.forEach((icon) => {
+      icon.classList.remove("active");
+    });
+    navbarLabels.forEach((text) => {
+      text.classList.remove("active");
+    });
+    navbarIcons[0].classList.add("active");
+    navbarLabels[0].classList.add("active");
+  });
 });
 
 // Click a item del navbar cambia la clase

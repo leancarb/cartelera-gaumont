@@ -71,12 +71,25 @@ carteleraBtn.addEventListener("click", () => {
   // Si estas en una peli tocas cartelera elimina los li
   MSInformationFechas.innerHTML = "";
   MSInformationHorario.innerHTML = "";
+
+  // Toca el botón cartelera vuelve al inicio
+  if (mainCarteleraContainer.classList.contains("hidden")) {
+    mainCarteleraContainer.classList.remove("hidden");
+    mainCarteleraMovieSelected.classList.add("hidden");
+    mainFelicidades.classList.add("hidden");
+  }
 });
 
 ciclosBtn.addEventListener("click", () => {
   mainCartelera.classList.add("hidden");
   mainCiclos.classList.remove("hidden");
   mainPrecios.classList.add("hidden");
+
+  // Toca el botón Ciclos vuelve al inicio de ciclos
+  if (mainCiclosContainer.classList.contains("hidden")) {
+    mainCiclosContainer.classList.remove("hidden");
+    mainCiclosInformation.classList.add("hidden");
+  }
 });
 
 preciosBtn.addEventListener("click", () => {
