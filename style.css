@@ -470,7 +470,7 @@ FONT SIZE SYSTEM (px)
   user-select: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: 1rem;
   padding-block: 0.75rem;
   margin-bottom: -0.375rem;
   align-items: center;
@@ -696,7 +696,7 @@ FONT SIZE SYSTEM (px)
   gap: 0.625rem;
 }
 
-@media (min-width: 87.5em) {
+@media (min-width: 40em) {
   .ciclos-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -69,11 +69,8 @@ const createCiclosImages = (ciclo) => {
   mainCiclosContainer.appendChild(cicloImages);
 
   cicloImages.src = `${element.image}`;
-  cicloImages.alt = `${element.titulo} banner`;
+  // cicloImages.alt = `${element.titulo} banner`;
   cicloImages.classList.add("ciclo");
-
-  // Attach the cycle data to the image element for later retrieval
-  cicloImages.dataset.cycleData = JSON.stringify(element);
 };
 
 fetch("ciclos.json")
@@ -93,6 +90,7 @@ fetch("ciclos.json")
 
         imageCiclo.src = selectedCiclo.banner;
         imageCiclo.alt = `Banner ${selectedCiclo.titulo}`;
+
         tituloCiclo.textContent = selectedCiclo.titulo;
         descripcionCiclo.innerHTML = selectedCiclo.descripcion.replace(
           /\n/g,
