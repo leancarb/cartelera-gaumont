@@ -223,7 +223,7 @@ mainFelicidadesText.classList.add("felicidades-paragraph");
 mainFelicidadesText.textContent = "Boleto Oficial Cinematográfico";
 mainFelicidades.classList.add("felicidades");
 mainFelicidadesIncaaContainer.classList.add("felicidades__incaa-container");
-mainFelicidadesIncaa.src = "images/logos/INCAA_LOGO_2022_NEGRO.png";
+mainFelicidadesIncaa.src = "images/logos/INCAA_LOGO_2022_NEGRO.webp";
 mainFelicidadesIncaa.alt = "Logo INCAA";
 mainFelicidadesInfoContainer.classList.add("felicidades__info-container");
 
