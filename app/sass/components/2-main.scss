@@ -387,6 +387,7 @@ FONT SIZE SYSTEM (px)
     &--image {
       margin-inline: auto;
       margin-bottom: rem(48);
+      display: flex;
     }
     &--title {
       margin-bottom: rem(32);
@@ -431,8 +432,10 @@ FONT SIZE SYSTEM (px)
     text-transform: capitalize;
     margin-bottom: rem(10);
   }
+  /*
   @at-root .valor {
   }
+  
   &--heading {
   }
   &--publico {
@@ -459,6 +462,7 @@ FONT SIZE SYSTEM (px)
   }
   &--empleados-valor {
   }
+  */
   &--entradas {
     margin-top: rem(16);
     font-weight: 700;
