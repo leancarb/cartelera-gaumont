@@ -98,23 +98,27 @@ FONT SIZE SYSTEM (px)
   gap: rem(12);
 
   @include breakpoint(large) {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   &-container {
+    max-width: 50%;
+    @include breakpoint(large) {
+      max-width: 50%;
+    }
   }
   // Izquierda
   &-movie {
     &--poster {
       border-radius: rem(4);
-      width: 250px;
+      width: rem(250);
       justify-self: center;
 
       grid-row: 1/3;
 
       @include breakpoint(large) {
-        width: 25vw;
-        grid-row: 1/4;
+        width: rem(400);
+        grid-row: 1/3;
       }
     }
   }
@@ -134,10 +138,6 @@ FONT SIZE SYSTEM (px)
 
       grid-row: 3/4;
       grid-column: 1/-1;
-
-      @include breakpoint(large) {
-        grid-column: 2/3;
-      }
 
       @at-root .info-container {
         display: flex;
@@ -169,7 +169,13 @@ FONT SIZE SYSTEM (px)
     &__fechas {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+
+      @include breakpoint(large) {
+        gap: rem(12);
+
+        padding-inline: rem(36);
+      }
+
       align-items: center;
       cursor: pointer;
       border-block: 1px solid #ddd;
@@ -181,6 +187,14 @@ FONT SIZE SYSTEM (px)
         padding-inline: rem(16);
         display: flex;
         flex-direction: column;
+        transition: var(--transition-default);
+        border-bottom: rem(4) solid var(--clr-very-light-blue);
+        color: var(--clr-dark-gray);
+
+        &:hover {
+          border-bottom: rem(4) solid var(--clr-light-blue);
+          color: var(--clr-darker-gray);
+        }
 
         &.active {
           border-bottom: rem(4) solid var(--clr-primary-blue);
@@ -208,9 +222,12 @@ FONT SIZE SYSTEM (px)
 
     &__horarios {
       display: flex;
-
       grid-row: 5/6;
       grid-column: 1/-1;
+
+      @include breakpoint(large) {
+        gap: rem(12);
+      }
 
       & li {
         cursor: pointer;
@@ -218,13 +235,20 @@ FONT SIZE SYSTEM (px)
         height: 100%;
         padding-inline: rem(48);
         border-radius: rem(999);
+        border: 1px solid var(--clr-light-blue);
+        transition: var(--transition-default);
 
         display: flex;
         align-items: center;
         justify-content: center;
 
+        &:hover {
+          background-color: var(--clr-light-blue);
+        }
+
         &.active {
-          background-color: var(--clr-navbar-icon);
+          background-color: var(--clr-primary-blue);
+          color: var(--clr-white-blue);
         }
       }
     }
@@ -246,12 +270,11 @@ FONT SIZE SYSTEM (px)
       padding: rem(12) 0;
       width: 100%;
       cursor: pointer;
-      transform: all 200ms;
       border-radius: rem(999);
+      transition: var(--transition-defaults);
 
       &:hover {
-        color: var(--clr-white);
-        background: var(--clr-light-blue);
+        background-color: var(--clr-lighter-gray);
       }
     }
 
@@ -344,6 +367,7 @@ FONT SIZE SYSTEM (px)
   font-weight: 400;
   text-transform: capitalize;
   font-size: rem(16);
+  color: var(--clr-darker-gray);
 }
 
 // Ciclos
@@ -423,6 +447,10 @@ FONT SIZE SYSTEM (px)
     padding: rem(48);
     border: rem(2) solid var(--clr-light-blue);
     border-radius: rem(12);
+
+    & p::first-letter {
+      text-transform: capitalize;
+    }
   }
 
   @at-root .titulo {

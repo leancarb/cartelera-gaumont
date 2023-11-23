@@ -77,7 +77,9 @@ headerContainerLogo.addEventListener("click", () => {
   mainCiclosContainer.classList.add("hidden");
   mainCiclosInformation.classList.add("hidden");
   mainPrecios.classList.add("hidden");
-  mainFelicidades.classList.add("hidden");
+  mainFelicidadesContainer.classList.add("hidden");
+  MSInformationFechas.innerHTML = "";
+  MSInformationHorario.innerHTML = "";
 
   // Cambiar la clase active cuando toco el logo
   headerNavbarItems.forEach((item, index) => {

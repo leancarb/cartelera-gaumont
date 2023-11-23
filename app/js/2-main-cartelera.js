@@ -220,7 +220,7 @@ MSInformationComprar.classList.add("selection-information--comprar");
 // prettier-ignore
 mainFelicidadesContainer.classList.add("felicidades-container","container","hidden");
 mainFelicidadesText.classList.add("felicidades-paragraph");
-mainFelicidadesText.textContent = "Boleto Oficial Cinematografico";
+mainFelicidadesText.textContent = "Boleto Oficial Cinematográfico";
 mainFelicidades.classList.add("felicidades");
 mainFelicidadesIncaaContainer.classList.add("felicidades__incaa-container");
 mainFelicidadesIncaa.src = "images/logos/INCAA_LOGO_2022_NEGRO.png";
@@ -231,7 +231,6 @@ mainFelicidadesPelicula.classList.add("felicidades__info-container--label");
 
 // prettier-ignore
 mainFelicidadesPeliculaSelected.classList.add("felicidades__info-container--selection");
-mainFelicidadesPeliculaSelected.textContent = "placeholder";
 mainFelicidadesSala.classList.add("felicidades__info-container--label");
 // prettier-ignore
 mainFelicidadesSalaSelected.classList.add("felicidades__info-container--selection");

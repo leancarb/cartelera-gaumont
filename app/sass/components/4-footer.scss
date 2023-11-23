@@ -41,10 +41,13 @@ FONT SIZE SYSTEM (px)
     text-align: left;
 
     & * {
-      color: var(--clr-white);
       color: var(--clr-primary-blue);
-
       text-decoration: none;
+      transition: var(--transition-default);
+
+      &:hover {
+        color: var(--clr-very-dark-blue);
+      }
     }
   }
 
@@ -64,6 +67,11 @@ FONT SIZE SYSTEM (px)
       text-decoration: none;
       text-align: left;
       text-transform: capitalize;
+      transition: var(--transition-default);
+
+      &:hover {
+        color: var(--clr-very-dark-blue);
+      }
     }
   }
 
