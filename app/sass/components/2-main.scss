@@ -407,6 +407,9 @@ FONT SIZE SYSTEM (px)
   }
 
   &-information {
+    & hr {
+      margin-block: rem(32);
+    }
     max-width: 50%;
     &--image {
       margin-inline: auto;
@@ -431,6 +434,12 @@ FONT SIZE SYSTEM (px)
       padding: rem(12) rem(24);
       border-radius: rem(999);
       cursor: pointer;
+      font-size: rem(14);
+      transition: var(--transition-default);
+
+      &:hover {
+        background-color: var(--clr-dark-blue);
+      }
     }
   }
 }
