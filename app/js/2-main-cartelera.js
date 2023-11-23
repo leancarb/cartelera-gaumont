@@ -213,7 +213,7 @@ MSInformationButtons.classList.add("selection-information__btns");
 MSInformationBack.textContent = "Volver";
 MSInformationBack.classList.add("selection-information--back");
 // Botón comprar
-MSInformationComprar.textContent = "Comprar";
+MSInformationComprar.textContent = "Reservar";
 MSInformationComprar.classList.add("selection-information--comprar");
 
 // #3 - Felicitaciones
