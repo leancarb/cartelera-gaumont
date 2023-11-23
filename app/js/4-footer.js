@@ -67,7 +67,7 @@ for (let i = 0; i < redesSociales.length; i++) {
 }
 
 // Style
-footerLogoImage.src = "images/logos/INCAA_LOGO_2022_AZUL_CMYK.png";
+footerLogoImage.src = "images/logos/INCAA_LOGO_2022_AZUL_CMYK.webp";
 footerLogoImage.alt = "Logo INCAA";
 footerLogoImage.classList.add("footer-logo__incaa");
 footerInformationAddress.href = "https://maps.app.goo.gl/fxF95obKXugL5TY58";

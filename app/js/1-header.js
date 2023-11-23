@@ -57,7 +57,7 @@ header.appendChild(headerNavbar);
 //////////////////////////////////
 header.classList.add("header");
 headerContainer.classList.add("header-container");
-headerContainerLogo.src = "images/logos/GAUMONT_LOGO_azul.png";
+headerContainerLogo.src = "images/logos/GAUMONT_LOGO_azul.webp";
 headerContainerLogo.alt = "Logo Gaumont";
 headerContainerLogo.classList.add("header-container--logo");
 
