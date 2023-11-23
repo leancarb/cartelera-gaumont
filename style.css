@@ -291,6 +291,11 @@ FONT SIZE SYSTEM (px)
   padding: 1rem 0 6rem;
 }
 
+@media (min-width: 40em) {
+  .main {
+    padding: 1rem 0;
+  }
+}
 .container {
   max-width: 80%;
   height: 100%;

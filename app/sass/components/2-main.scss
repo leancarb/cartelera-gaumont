@@ -16,6 +16,10 @@ FONT SIZE SYSTEM (px)
   display: flex;
   align-items: center;
   padding: rem(16) 0 rem(96);
+
+  @include breakpoint(medium) {
+    padding: rem(16) 0;
+  }
 }
 
 .container {

@@ -78,12 +78,14 @@ carteleraBtn.addEventListener("click", () => {
     mainCarteleraMovieSelected.classList.add("hidden");
     mainFelicidades.classList.add("hidden");
   }
+  main.style.padding = "1rem 0 6rem";
 });
 
 ciclosBtn.addEventListener("click", () => {
   mainCartelera.classList.add("hidden");
   mainCiclos.classList.remove("hidden");
   mainPrecios.classList.add("hidden");
+  main.style.padding = "1rem 0";
 
   // Toca el botón Ciclos vuelve al inicio de ciclos
   if (mainCiclosContainer.classList.contains("hidden")) {
@@ -96,4 +98,5 @@ preciosBtn.addEventListener("click", () => {
   mainCartelera.classList.add("hidden");
   mainCiclos.classList.add("hidden");
   mainPrecios.classList.remove("hidden");
+  main.style.padding = "1rem 0 6rem";
 });
