@@ -1,0 +1,117 @@
+@use "../util" as *;
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: rem(24) 0;
+
+  @include breakpoint(medium) {
+    justify-content: space-between;
+    padding: 4vh 10%;
+  }
+
+  &-container {
+    display: block;
+
+    &--logo {
+      width: rem(64);
+      cursor: pointer;
+
+      @include breakpoint(medium) {
+        width: rem(80);
+      }
+    }
+  }
+
+  &-navbar {
+    display: none;
+
+    @include breakpoint(medium) {
+      display: flex;
+      gap: rem(64);
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: rem(6);
+      // gap: rem(8);
+
+      text-transform: capitalize;
+
+      &:hover {
+        cursor: pointer;
+
+        & .header-navbar__item--icon {
+          background-color: var(--clr-light-gray);
+          color: var(--clr-black-blue);
+        }
+        & .header-navbar__item--icon.active {
+          background-color: var(--clr-light-blue);
+        }
+      }
+
+      &--icon {
+        display: block;
+        padding: rem(4) rem(20);
+        border-radius: rem(999);
+        margin-bottom: rem(8);
+        transition: var(--transition-default);
+
+        &.active {
+          font-variation-settings: "FILL" 1;
+          background-color: var(--clr-navbar-icon);
+          color: var(--clr-very-dark-blue);
+        }
+      }
+
+      &--anchor {
+        text-transform: capitalize;
+        font-size: rem(12);
+
+        &.active {
+          font-weight: 700;
+          color: var(--clr-black-blue);
+        }
+      }
+    }
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.rotulo {
+  background: var(--clr-logo);
+  padding-block: rem(8);
+  position: relative;
+
+  &-text {
+    color: var(--clr-white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: rem(10);
+    letter-spacing: 1px;
+  }
+
+  &-close {
+    color: var(--clr-white);
+    font-size: rem(16);
+    padding: rem(8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+}

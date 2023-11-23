@@ -1,0 +1,369 @@
+{
+  "perdido_por_perdido": {
+    "_id": 1,
+    "anio": 1993,
+    "director": "Alberto Lecchi",
+    "duracion": "1 hr 33 min",
+    "especial": false,
+    "fechas": {
+      "semana": ["Lunes"],
+      "numero": ["06/11"]
+    },
+    "genero": ["Thriller"],
+    "horario": ["19:30"],
+    "poster": "images/poster/perdido por perdido.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "Vidal (Darín) is about to be bankrupt, so he sets up a fake car robbery with a small-time mobster to collect insurance and split the money. But his perfect plan becomes entangled by his increasingly dangerous ties to the mob and the meddling of a rogue insurance investigator (Pinti), who eventually strikes a deal with Vidal and decides to team up with him and his wife (Papaleo) to bring down the mob and expose the corruption that links a high-ranking executive to the mafia.",
+    "titulo": "Perdido por perdido"
+  },
+  "puan": {
+    "_id": 2,
+    "anio": 2023,
+    "director": "María Alché",
+    "duracion": "1 hr 47 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Comedia"],
+    "horario": ["12:10"],
+    "poster": "images/poster/puan.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "At the University of Buenos Aires, a rivalry arises between two Philosophy teachers for a professorship position.",
+    "titulo": "Puan"
+  },
+  "auxilio": {
+    "_id": 3,
+    "anio": 2023,
+    "director": "Tamae Garateguy",
+    "duracion": "1 hr 20 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Terror"],
+    "horario": ["14:20"],
+    "poster": "images/poster/auxilio.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "It tells the story of Emilia, who is sent to a convent where paranormal forces start to mount among the holy and the tortured.",
+    "titulo": "Auxilio"
+  },
+  "norma": {
+    "_id": 4,
+    "anio": 2023,
+    "director": "Santiago Giralt",
+    "duracion": "1 hr 33 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "08/11"]
+    },
+    "genero": ["Drama"],
+    "horario": ["16:00", "20:20"],
+    "COMENTARIO": "if horario === 16:00 ? fechas excepto martes 7 : excepto 6, 7 y 8",
+    "poster": "images/poster/norma.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "A woman finds new meaning in her life after her housekeeper quits her job.",
+    "titulo": "Norma"
+  },
+  "la_pantalla_andina": {
+    "_id": 5,
+    "anio": 2022,
+    "director": "Carmina Balaguer",
+    "duracion": "49 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Documental"],
+    "horario": ["12:30"],
+    "poster": "images/poster/la pantalla andina.jpg",
+    "sala": "leonardo favio",
+    "sinopsis": "",
+    "titulo": "La pantalla andina"
+  },
+  "pibas_superpoderosas": {
+    "_id": 6,
+    "anio": 2023,
+    "director": "Leonora Kievsky",
+    "duracion": "1 hr 20 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["documental"],
+    "horario": ["13:45"],
+    "poster": "images/poster/pibas superpoderosas.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Ana, Lore and Mile introduce us to the lives of young people, their concerns, yearnings, and fights. The fierce irruption of the new gender perspectives and the protagonist of women. Their time in high school towards adulthood reflects young people's needs to express themselves and transform the world we live in.",
+    "titulo": "Pibas superpoderosas"
+  },
+  "el_duelo": {
+    "_id": 7,
+    "anio": 2023,
+    "director": "Augusto Tejada",
+    "duracion": "1 hr 22 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["comedia dramática"],
+    "horario": ["15:30", "19:00"],
+    "poster": "images/poster/el duelo.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Ernesto lives in depression and decides to hire a hit-man to end his own life. However, his plan takes an unexpected turn when he meets Rita, whose love gives him a new reason to live.",
+    "titulo": "El duelo"
+  },
+  "desde_la_última_vez": {
+    "_id": 8,
+    "anio": 2023,
+    "director": "Matías De Leis Correa",
+    "duracion": "1 hr 21 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Drama romántico"],
+    "horario": ["17:15"],
+    "poster": "images/poster/desde la ultima vez.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Handsome and stylish Victor is reunited by chance with David, his first love, fifteen years after the last time they saw each other. This reunion revives the clandestine love they had when they were younger.",
+    "titulo": "Desde la última vez que nos vimos"
+  },
+  "cuenta regresiva": {
+    "_id": 9,
+    "anio": 2023,
+    "director": "Silvia Maturana",
+    "duracion": "1 hr 14 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["drama"],
+    "horario": ["20:45"],
+    "poster": "images/poster/cuenta regresiva.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "",
+    "titulo": "Cuenta regresiva"
+  },
+  "recuerdos_del_mal": {
+    "_id": 10,
+    "anio": 2023,
+    "director": "Gabriel Musco",
+    "duracion": "1 hr 24 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Terror"],
+    "horario": ["22:30"],
+    "poster": "images/poster/recuerdos del mal.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Laura, a young nurse from a rural town, is hired to care for Amalia, an elderly woman who suffers from memory loss. One day, Laura makes a mistake with the medication and Amalia begins to remember things. Laura suspects the amnesia might not be a result of age. As she investigates, she starts to experience frightening events she cannot explain.",
+    "titulo": "Recuerdos del mal"
+  },
+  "no_me_rompan": {
+    "_id": 11,
+    "anio": 2023,
+    "director": "Azul Lombardía",
+    "duracion": "1 hr 34 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["comedia"],
+    "horario": ["12:20", "18:15"],
+    "poster": "images/poster/no me rompan.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "Two women struggling with anger issues join forces to defeat an eccentric surgeon who endangers their lives, in this hilarious, comedy-filled romp.",
+    "titulo": "No me rompan"
+  },
+  "lennons": {
+    "_id": 12,
+    "anio": 2023,
+    "director": "José María Cicala",
+    "duracion": "1 hr 50 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Comedia"],
+    "horario": ["14:10"],
+    "poster": "images/poster/lennons.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "Tells the irruption of a John Lennon impersonator, whom a stunt manager presents as the real idol, deceiving a famous television host who plans fearsome revenge.",
+    "titulo": "Lennons"
+  },
+  "tiempo_de_cosecha": {
+    "_id": 13,
+    "anio": 2016,
+    "director": "Nela Fernández",
+    "duracion": "13 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Suspenso"],
+    "horario": ["16:30", "22:00"],
+    "poster": "images/poster/tiempo de cosecha.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "Julián anhela tener una bicicleta de carreras. Cuando su sueño está a punto de cumplirse, un suceso inesperado lo pone en riesgo.",
+    "titulo": "Tiempo de cosecha"
+  },
+  "reina_animal": {
+    "_id": 14,
+    "anio": 2023,
+    "director": "Moroco Colman",
+    "duracion": "1 hr 10 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Thriller"],
+    "horario": ["16:30", "22:00"],
+    "poster": "images/poster/reina animal.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "During the pandemic, Reina sells meat stolen by her cousin from door to door. Until one night, in a desolated street, she is mugged by robbers on motorbikes. Lim and Clara help her and they become friends—this way, a plot full of suspicion begins.",
+    "titulo": "Reina animal"
+  },
+  "la_vida_a_oscuras": {
+    "_id": 15,
+    "anio": 2023,
+    "director": "Enrique Bellande",
+    "duracion": "1hr 13 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+    },
+    "genero": ["Documental"],
+    "horario": ["20:15"],
+    "poster": "images/poster/la vida a oscuras.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "It is an approach to the figure of Fernando Martín Peña, but it is also a film about cinema, about a transcendental movement in its history, its spaces and rituals.",
+    "titulo": "La vida a oscuras"
+  }
+}

@@ -1,0 +1,46 @@
+@use "../util" as *;
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+.dark {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  display: grid;
+  place-content: center;
+}
+
+.dark-mode {
+  background: #1d1d1b;
+  color: #eef2fc;
+
+  &
+    > #root
+    > .header
+    > .header-navbar
+    > .header-navbar__item
+    > .header-navbar__item--anchor.active {
+    color: #dde5f8;
+  }
+
+  &
+    > #root
+    > .header
+    > .header-navbar
+    > .header-navbar__item
+    > .header-navbar__item--icon.active {
+    color: #dde5f8;
+    background: #091534;
+  }
+}
+*/

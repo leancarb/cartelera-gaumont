@@ -1,0 +1,74 @@
+@use "../util" as *;
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+
+  position: fixed;
+  height: rem(80);
+  width: 100%;
+  inset: auto 0 0;
+  padding: rem(12) 0 rem(16);
+  background: #fff;
+  @include breakpoint(medium) {
+    display: none;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: rem(56);
+    width: rem(80);
+
+    &:hover {
+      cursor: pointer;
+
+      & .navbar__item--icon {
+        color: #202124;
+      }
+    }
+
+    &--icon {
+      padding: rem(4) rem(20);
+      border-radius: rem(999);
+      margin-bottom: rem(8);
+      transition: var(--transition-default);
+
+      &.active {
+        font-variation-settings: "FILL" 1;
+        background-color: var(--clr-navbar-icon);
+        color: var(--clr-black-blue);
+      }
+    }
+
+    &:link,
+    &:visited {
+      color: var(--clr-black-blue);
+      text-decoration: none;
+    }
+
+    &--label {
+      text-transform: capitalize;
+      font-size: rem(12);
+
+      &.active {
+        font-weight: 500;
+        color: var(--clr-black-blue);
+      }
+    }
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}

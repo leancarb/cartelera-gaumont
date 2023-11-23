@@ -1,0 +1,72 @@
+@use "../util" as *;
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+.footer {
+  display: none;
+
+  @include breakpoint(medium) {
+    width: 100%;
+    // background: var(--clr-primary-blue);
+    // background: rgba(220, 228, 249, 0.25);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo__incaa {
+    height: auto;
+    min-width: rem(200);
+    max-width: rem(500);
+    width: 100%;
+    height: 100%;
+    place-content: center;
+    place-content: center;
+  }
+
+  &-information {
+    display: grid;
+    place-self: center;
+    gap: rem(4);
+    font-size: rem(14);
+    text-align: left;
+
+    & * {
+      color: var(--clr-white);
+      color: var(--clr-primary-blue);
+
+      text-decoration: none;
+    }
+  }
+
+  &-socials {
+    display: flex;
+    gap: rem(12);
+    justify-self: center;
+
+    width: 100%;
+    height: 100%;
+    place-content: center;
+    place-items: center;
+
+    & * {
+      font-size: rem(24);
+      color: var(--clr-primary-blue);
+      text-decoration: none;
+      text-align: left;
+      text-transform: capitalize;
+    }
+  }
+
+  &-container + a {
+    font-size: rem(14);
+  }
+}

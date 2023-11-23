@@ -1,33 +1,45 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#1f419a" />
-
+    <!-- Color ventana Chrome Android -->
+    <!-- prettier-ignore -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1f4298"/>
     <!-- Favicon -->
-    <link rel="icon" href="images/logos/GAUMONT_LOGO_blanco.png" />
+    <link rel="icon" href="images/logos/GAUMONT_LOGO_BLANCO.png" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <!-- prettier-ignore -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Icons -->
+    <!-- prettier-ignore -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 
-    <!-- Font -->
+    <!-- FUENTE RUBIK -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&display=swap"
       rel="stylesheet"
-    />
-
-    <!-- Icons -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="styles.css" />
-    <title>Cartelera</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Javascript -->
+    <script src="app/js/1-header.js" defer></script>
+    <script src="app/js/2-main-cartelera.js" defer></script>
+    <script src="app/js/2-main-ciclos.js" defer></script>
+    <script src="app/js/2-main-precios.js" defer></script>
+    <script src="app/js/3-navbar.js" defer></script>
+    <script src="app/js/4-footer.js" defer></script>
+    <script src="app/js/5-dark.js" defer></script>
+    <script src="app/js/app.js" defer></script>
+    <!-- Titulo -->
+    <title>Cine Gaumont</title>
   </head>
   <body>
     <div id="root"></div>
-    <script src="app/js/script.js"></script>
   </body>
 </html>

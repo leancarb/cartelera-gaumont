@@ -1,0 +1,466 @@
+@use "../util" as *;
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+.hidden {
+  display: none !important;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: rem(16) 0 rem(96);
+}
+
+.container {
+  max-width: 80%;
+  height: 100%;
+  margin-inline: auto;
+  padding-bottom: rem(100);
+
+  @include breakpoint(medium) {
+    padding-bottom: 0;
+  }
+}
+
+// Cartelera
+
+// #1 - Cartelera
+
+.cartelera {
+  margin-inline: auto;
+  &-container {
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(rem(150), 1fr));
+    grid-template-columns: repeat(2, minmax(rem(150), 1fr));
+    gap: rem(12);
+    margin-inline: auto;
+    max-width: 90%;
+
+    @include breakpoint(small) {
+      grid-template-columns: repeat(2, minmax(rem(150), 1fr));
+    }
+
+    @include breakpoint(medium) {
+      grid-template-columns: repeat(3, minmax(rem(120), 1fr));
+      max-width: 90%;
+    }
+
+    @include breakpoint(large) {
+      grid-template-columns: repeat(4, minmax(rem(120), 1fr));
+      max-width: 85%;
+    }
+
+    @include breakpoint(xlarge) {
+      grid-template-columns: repeat(5, minmax(rem(150), 1fr));
+      max-width: 80%;
+    }
+
+    &-movie {
+      &--poster {
+        max-width: 100%;
+        cursor: pointer;
+        aspect-ratio: 2/3;
+        border-radius: rem(4);
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+          rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,
+          rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+      }
+    }
+  }
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+// #2 - Información
+
+.container {
+  max-width: 80%;
+  width: 100%;
+}
+.selection {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: rem(36) auto rem(48) rem(64) rem(36) auto;
+  gap: rem(12);
+
+  @include breakpoint(large) {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  &-container {
+  }
+  // Izquierda
+  &-movie {
+    &--poster {
+      border-radius: rem(4);
+      width: 250px;
+      justify-self: center;
+
+      grid-row: 1/3;
+
+      @include breakpoint(large) {
+        width: 25vw;
+        grid-row: 1/4;
+      }
+    }
+  }
+
+  &-information {
+    &--title {
+      text-transform: capitalize;
+
+      grid-row: 1/2;
+    }
+    &__container {
+      display: flex;
+      justify-content: space-evenly;
+      gap: rem(8);
+      border-top: 1px solid #ddd;
+      padding-block: rem(8);
+
+      grid-row: 3/4;
+      grid-column: 1/-1;
+
+      @include breakpoint(large) {
+        grid-column: 2/3;
+      }
+
+      @at-root .info-container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      @at-root .info-label {
+        font-size: rem(10);
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--clr-gray);
+      }
+
+      @at-root .info-name {
+        text-transform: capitalize;
+      }
+
+      &--duration-name {
+        text-transform: lowercase;
+      }
+    }
+    &--sinopsis {
+      color: var(--clr-dark-gray);
+
+      grid-row: 2/3;
+    }
+
+    &__fechas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      border-block: 1px solid #ddd;
+
+      grid-row: 4/5;
+      grid-column: 1/-1;
+
+      & li {
+        padding-inline: rem(16);
+        display: flex;
+        flex-direction: column;
+
+        &.active {
+          border-bottom: rem(4) solid var(--clr-primary-blue);
+          color: var(--clr-primary-blue);
+        }
+
+        & span {
+          text-align: center;
+          border-bottom: rem(4) solid transparent;
+
+          // DIA SEMANA
+          &:nth-child(1) {
+            font-size: rem(12);
+            font-weight: 700;
+            text-transform: uppercase;
+          }
+
+          // DIA MES
+          &:nth-child(2) {
+            font-size: rem(14);
+          }
+        }
+      }
+    }
+
+    &__horarios {
+      display: flex;
+
+      grid-row: 5/6;
+      grid-column: 1/-1;
+
+      & li {
+        cursor: pointer;
+        text-align: center;
+        height: 100%;
+        padding-inline: rem(48);
+        border-radius: rem(999);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.active {
+          background-color: var(--clr-navbar-icon);
+        }
+      }
+    }
+
+    &__btns {
+      display: flex;
+      gap: rem(12);
+      justify-content: space-between;
+      font-size: rem(14);
+      text-align: center;
+      cursor: pointer;
+
+      grid-row: 6/7;
+      grid-column: 1/-1;
+    }
+    &--back {
+      border: 1px solid var(--clr-primary-blue);
+      color: var(--clr-primary-blue);
+      padding: rem(12) 0;
+      width: 100%;
+      cursor: pointer;
+      transform: all 200ms;
+      border-radius: rem(999);
+
+      &:hover {
+        color: var(--clr-white);
+        background: var(--clr-light-blue);
+      }
+    }
+
+    &--comprar {
+      background: var(--clr-primary-blue);
+      color: var(--clr-white);
+      padding: rem(12) 0;
+      width: 100%;
+      border-radius: rem(999);
+
+      &:hover {
+        background-color: var(--clr-dark-blue);
+      }
+    }
+  }
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+// #3 - Felicidades
+
+.felicidades-container {
+  width: 100%;
+}
+.felicidades-paragraph {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: rem(12);
+  font-weight: 700;
+  padding-bottom: rem(12);
+}
+.felicidades {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+
+  @include breakpoint(large) {
+    width: 50%;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    padding-block: rem(24);
+  }
+
+  margin-inline: auto;
+  background-color: var(--clr-white);
+  border: rem(2) dotted var(--clr-light-blue);
+  border-radius: rem(12);
+  padding: 0 5% 5%;
+}
+.felicidades__incaa-container {
+  align-self: center;
+  width: 100%;
+
+  & img {
+    opacity: 75%;
+
+    @include breakpoint(large) {
+      width: 50%;
+      padding-block: 15%;
+      transform: rotate(-90deg);
+    }
+  }
+}
+.felicidades__info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+  padding-top: 5%;
+  border-top: 2px dashed var(--clr-light-blue);
+
+  @include breakpoint(medium) {
+  }
+  @include breakpoint(large) {
+    border-top: none;
+    border-left: 1px solid var(--clr-light-blue);
+  }
+}
+.felicidades__info-container--label {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: rem(12);
+}
+.felicidades__info-container--selection {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: rem(16);
+}
+
+// Ciclos
+
+.ciclos {
+  margin-inline: auto;
+
+  &-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: rem(10);
+
+    @include breakpoint(xlarge) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      gap: rem(24);
+      width: 100%;
+    }
+
+    & .ciclo {
+      border-radius: rem(8);
+      aspect-ratio: 2.1/1;
+      object-fit: cover;
+      cursor: pointer;
+
+      @include breakpoint(large) {
+        width: 80%;
+        max-width: rem(1500);
+      }
+
+      @include breakpoint(xlarge) {
+        width: 100%;
+      }
+    }
+  }
+
+  &-information {
+    max-width: 50%;
+    &--image {
+      margin-inline: auto;
+      margin-bottom: rem(48);
+    }
+    &--title {
+      margin-bottom: rem(32);
+    }
+    &--description {
+      margin-bottom: rem(16);
+    }
+    &--inicio {
+      margin-bottom: rem(4);
+    }
+    &--final {
+      margin-bottom: rem(32);
+    }
+    &--btn {
+      background: var(--clr-primary-blue);
+      color: var(--clr-white);
+      padding: rem(12) rem(24);
+      border-radius: rem(999);
+      cursor: pointer;
+    }
+  }
+}
+
+// Precios
+
+.precios {
+  margin-inline: auto;
+  padding-inline: 5vw;
+  &-container {
+    font-size: rem(14);
+    line-height: rem(20);
+    background: var(--clr-white);
+    padding: rem(48);
+    border: rem(2) solid var(--clr-light-blue);
+    border-radius: rem(12);
+  }
+
+  @at-root .titulo {
+    text-transform: uppercase;
+  }
+  @at-root .precio {
+    text-transform: capitalize;
+    margin-bottom: rem(10);
+  }
+  @at-root .valor {
+  }
+  &--heading {
+  }
+  &--publico {
+  }
+  &--publico-valor {
+  }
+  &--subheading {
+  }
+  &--jubilados {
+  }
+  &--jubilados-valor {
+  }
+  &--estudiantes {
+  }
+  &--estudiantes-valor {
+  }
+  &--afiliados {
+  }
+  &--afiliados-valor {
+  }
+  &--discapacitados {
+  }
+  &--discapacitados-valor {
+  }
+  &--empleados-valor {
+  }
+  &--entradas {
+    margin-top: rem(16);
+    font-weight: 700;
+  }
+}
