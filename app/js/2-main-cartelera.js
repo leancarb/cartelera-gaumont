@@ -311,6 +311,8 @@ fetch("cartelera.json")
           diaSem.textContent = selectedMovie.fechas.semana[i].slice(0, 3);
           diaMes.textContent = selectedMovie.fechas.numero[i];
         }
+        // por defecto la primer fecha tiene la clase active
+        document.querySelector("#fecha-1").classList.add("active");
 
         // cuando haces click se agrega la clase active
         const date = document.querySelectorAll(
@@ -340,6 +342,8 @@ fetch("cartelera.json")
             hora.classList.toggle("active");
           });
         }
+        // por defecto el primer horario tiene la clase active
+        document.querySelector("#hora-1").classList.add("active");
 
         const time = document.querySelectorAll(
           ".selection-information__horarios > li"
