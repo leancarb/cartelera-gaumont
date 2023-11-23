@@ -279,6 +279,7 @@ fetch("cartelera.json")
 
     moviesContainer.forEach((poster, index) => {
       poster.addEventListener("click", () => {
+        window.scrollTo({ top: 0 });
         mainCarteleraContainer.classList.add("hidden");
         mainCarteleraMovieSelected.classList.remove("hidden");
 
