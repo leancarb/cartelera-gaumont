@@ -22,16 +22,17 @@ FONT SIZE SYSTEM (px)
     justify-content: space-between;
   }
 
-  &-logo__incaa {
-    height: auto;
-    min-width: rem(200);
-    max-width: rem(500);
-    width: 100%;
-    height: 100%;
-    place-content: center;
-    place-content: center;
+  &-logo {
+    display: flex;
+    justify-content: center;
+    &__incaa {
+      height: auto;
+      min-width: rem(200);
+      max-width: rem(500);
+      width: 100%;
+      height: 100%;
+    }
   }
-
   &-information {
     display: grid;
     place-self: center;

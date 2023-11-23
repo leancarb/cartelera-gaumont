@@ -8,7 +8,6 @@ const footer = document.createElement("footer");
 root.appendChild(footerComment);
 root.appendChild(footer);
 
-
 for (let i = 0; i <= 2; i++) {
   const footerClasses = [
     { comment: "Logo INCAA", class: "logo" },
@@ -16,7 +15,9 @@ for (let i = 0; i <= 2; i++) {
     { comment: "Redes sociales", class: "socials" },
   ];
   const footerContainer = document.createElement("div");
-  let footerContainerComment = document.createComment(`${footerClasses[i].comment}`);
+  let footerContainerComment = document.createComment(
+    `${footerClasses[i].comment}`
+  );
 
   footerContainer.classList.add(`footer-${footerClasses[i].class}`);
 
@@ -27,7 +28,9 @@ for (let i = 0; i <= 2; i++) {
 footer.classList.add("footer");
 const footerLogoContainer = document.querySelector(".footer-logo");
 const footerLogoImage = document.createElement("img");
-const footerInformationContainer = document.querySelector(".footer-information");
+const footerInformationContainer = document.querySelector(
+  ".footer-information"
+);
 const footerInformationAddress = document.createElement("a");
 const footerInformationPhone = document.createElement("a");
 const footerSocialContainer = document.querySelector(".footer-socials");
@@ -92,10 +95,38 @@ const moduleIcons = document.createElement("script");
 const nomoduleIcons = document.createElement("script");
 
 moduleIcons.setAttribute("type", "module");
-moduleIcons.src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
+moduleIcons.src =
+  "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
 nomoduleIcons.setAttribute("nomodule", "");
-nomoduleIcons.src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js";
+nomoduleIcons.src =
+  "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js";
 
 body.appendChild(iconComment);
 body.appendChild(moduleIcons);
 body.appendChild(nomoduleIcons);
+
+//rotulo
+const rotulo = () => {
+  const rotuloContainer = document.createElement("div");
+  const rotuloText = document.createElement("p");
+  const rotuloClose = document.createElement("span");
+  const copyright = document.createElement("p");
+  root.appendChild(rotuloContainer);
+  rotuloContainer.appendChild(rotuloText);
+  rotuloContainer.appendChild(rotuloClose);
+  root.appendChild(copyright);
+  rotuloContainer.classList.add("rotulo");
+  rotuloText.classList.add("rotulo-text");
+  rotuloClose.classList.add("rotulo-close", "material-symbols-outlined");
+  rotuloText.textContent =
+    "Los contenidos publicados en estas páginas han sido tomados por alumnos de una materia de la Universidad de Buenos Aires para la realización de un trabajo práctico. Los textos, logotipos, fotografías, tipografías, etc., pueden no ser de su autoría y sólo son utilizados a los fines prácticos del ejercicio.";
+  rotuloClose.textContent = "close";
+  copyright.classList.add("copyright");
+  copyright.textContent =
+    "Diseñado y programado por Leandro Carbonetti - DGPC cátedra Díaz Cortez - FADU, UBA. 2023.";
+
+  rotuloClose.addEventListener("click", () => {
+    rotuloContainer.remove();
+  });
+};
+rotulo();

@@ -91,27 +91,3 @@ FONT SIZE SYSTEM (px)
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
-
-.rotulo {
-  background: var(--clr-logo);
-  padding-block: rem(8);
-  position: relative;
-
-  &-text {
-    color: var(--clr-white);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: rem(10);
-    letter-spacing: 1px;
-  }
-
-  &-close {
-    color: var(--clr-white);
-    font-size: rem(16);
-    padding: rem(8);
-    position: absolute;
-    top: 0;
-    right: 0;
-    cursor: pointer;
-  }
-}

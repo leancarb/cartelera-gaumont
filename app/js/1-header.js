@@ -2,27 +2,6 @@
 //             HTML             //
 //////////////////////////////////
 
-  //rotulo
-  const rotulo = () => {
-    const rotuloContainer = document.createElement("div");
-    const rotuloText = document.createElement("p");
-    const rotuloClose = document.createElement("span");
-    root.appendChild(rotuloContainer);
-    rotuloContainer.appendChild(rotuloText);
-    rotuloContainer.appendChild(rotuloClose);
-    rotuloContainer.classList.add("rotulo");
-    rotuloText.classList.add("rotulo-text");
-    rotuloClose.classList.add("rotulo-close", "material-symbols-outlined");
-    rotuloText.textContent =
-      "Los contenidos publicados en estas páginas han sido tomados por alumnos de una materia de la Universidad de Buenos Aires para la realización de un trabajo práctico. Los textos, logotipos, fotografías, tipografías, etc., pueden no ser de su autoría y sólo son utilizados a los fines prácticos del ejercicio.";
-    rotuloClose.textContent = "close";
-  
-    rotuloClose.addEventListener("click", () => {
-      rotuloContainer.remove();
-    });
-  };
-  rotulo();
-
 //Create
 let headerComment = document.createComment("Header");
 const header = document.createElement("header");
@@ -98,7 +77,7 @@ headerContainerLogo.addEventListener("click", () => {
   mainCiclosContainer.classList.add("hidden");
   mainCiclosInformation.classList.add("hidden");
   mainPrecios.classList.add("hidden");
-  mainFelicidades.classList.add("hidden")
+  mainFelicidades.classList.add("hidden");
 
   // Cambiar la clase active cuando toco el logo
   headerNavbarItems.forEach((item, index) => {
@@ -154,7 +133,7 @@ carteleraHeaderBtn.addEventListener("click", () => {
   if (mainCarteleraContainer.classList.contains("hidden")) {
     mainCarteleraContainer.classList.remove("hidden");
     mainCarteleraMovieSelected.classList.add("hidden");
-    mainFelicidades.classList.add("hidden")
+    mainFelicidades.classList.add("hidden");
   }
 });
 
