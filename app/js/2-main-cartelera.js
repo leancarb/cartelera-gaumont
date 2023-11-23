@@ -331,7 +331,6 @@ fetch("cartelera.json")
 
         // Agregar dinamicamente los horarios
         for (let i = 0; i < selectedMovie.horario.length; i++) {
-          console.log(selectedMovie.horario[i]);
           const hora = document.createElement("li");
 
           MSInformationHorario.appendChild(hora);
