@@ -42,6 +42,7 @@ mainCiclosInformation.classList.add(
   "hidden"
 );
 imageCiclo.classList.add("ciclos-information--image");
+imageCiclo.setAttribute("loading", "lazy");
 tituloCiclo.classList.add("ciclos-information--title");
 descripcionCiclo.classList.add("ciclos-information--description");
 fechaInicioCiclo.classList.add("ciclos-information--inicio");
@@ -71,6 +72,7 @@ const createCiclosImages = (ciclo) => {
   cicloImages.src = `${element.image}`;
   cicloImages.alt = `${element.titulo} banner`;
   cicloImages.classList.add("ciclo");
+  cicloImages.setAttribute("loading", "lazy");
 };
 
 fetch("ciclos.json")

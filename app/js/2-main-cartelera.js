@@ -263,6 +263,7 @@ const createMovieContainer = (movie) => {
 
   movieContainer.classList.add("cartelera-container-movie");
   moviePoster.classList.add("cartelera-container-movie--poster");
+  moviePoster.setAttribute("loading", "lazy");
   moviePoster.src = element.poster;
   moviePoster.alt = `${element.titulo} poster`;
 };
