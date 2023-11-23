@@ -191,6 +191,7 @@ FONT SIZE SYSTEM (px)
     }
 
     &__fechas {
+      user-select: none;
       display: flex;
       flex-wrap: wrap;
       gap: rem(20);
@@ -245,6 +246,7 @@ FONT SIZE SYSTEM (px)
     }
 
     &__horarios {
+      user-select: none;
       display: flex;
       grid-row: 6/7;
       grid-column: 1/-1;
@@ -284,6 +286,7 @@ FONT SIZE SYSTEM (px)
     }
 
     &__btns {
+      user-select: none;
       display: flex;
       gap: rem(12);
       justify-content: space-between;
