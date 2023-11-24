@@ -7,3 +7,5 @@
 - add the option of how many tickets the user want to reserve and show the price of the selected tickets
 
 - add back button once the movie ticket is reserved
+
+- add a back button once you reserve a movie ticket
