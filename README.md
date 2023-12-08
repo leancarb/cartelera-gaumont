@@ -9,3 +9,5 @@
 - add back button once the movie ticket is reserved
 
 - add a back button once you reserve a movie ticket
+
+- add schema markup
