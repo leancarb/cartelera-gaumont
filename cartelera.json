@@ -1,111 +1,92 @@
 {
-  "Perfect Days": {
+  "El Abrazo Partido": {
     "_id": 1,
     "anio": 2023,
-    "director": "Wim Wenders",
-    "duracion": "2 hr 3 min",
-    "especial": true,
-    "fechas": {
-      "semana": ["Martes"],
-      "numero": ["28/11"]
-    },
-    "genero": ["Drama"],
-    "horario": ["20:00"],
-    "poster": "images/poster/perfect days.webp",
-    "sala": "Leonardo Favio",
-    "sinopsis": "Hirayama parece totalmente satisfecho con su sencilla vida de limpiador de retretes en Tokio. Fuera de su estructurada rutina diaria, disfruta de su pasión por la música y los libros. Le encantan los árboles y les hace fotos. Una serie de encuentros inesperados revelan poco a poco más de su pasado.",
-    "titulo": "Perfect Days"
-  },
-  "Anatomy of a Fall": {
-    "_id": 2,
-    "anio": 2023,
-    "director": "Justine Triet",
-    "duracion": "2 hr 32 min",
-    "especial": true,
-    "fechas": {
-      "semana": ["Miércoles", "Sábado"],
-      "numero": ["28/11", "02/12"]
-    },
-    "genero": ["Suspenso"],
-    "horario": ["20:00"],
-    "poster": "images/poster/anatomy of a fall.webp",
-    "sala": "Leonardo Favio",
-    "sinopsis": "Sandra, una escritora alemana, vive con su marido Samuel y su hijo ciego, Daniel, en un chalé en medio de los Alpes franceses. Cuando Samuel fallece en misteriosas circunstancias, la investigación no puede determinar si se trata de un suicidio o de un homicidio. Sandra es arrestada y juzgada por asesinato, y el proceso pone su tumultuosa relación y su ambigua personalidad en el punto de mira.",
-    "titulo": "Anatomy of a Fall"
-  },
-  "Fallen Leaves": {
-    "_id": 3,
-    "anio": 2023,
-    "director": "Aki Kaurismäki",
-    "duracion": "1 hr 21 min",
+    "director": "Daniel Burman",
+    "duracion": "1 hr 40 min",
     "especial": true,
     "fechas": {
       "semana": ["Miércoles"],
-      "numero": ["29/11"]
+      "numero": ["27/03"]
     },
-    "genero": ["Comedia"],
+    "genero": ["Drama"],
     "horario": ["20:00"],
-    "poster": "images/poster/fallen leaves.webp",
+    "poster": "images/poster/el abrazo partido.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "Ansa es soltera y vive en Helsinki. Trabaja con un contrato de cero horas en un supermercado, abasteciendo los estantes; luego clasifica el plástico reciclable. Una noche se encuentra accidentalmente con el igualmente solitario trabajador Holappa, un alcohólico. Contra todo pronóstico y malentendidos, intentan construir una relación. Como resultado, Holappa logra controlar su adicción al alcohol.",
-    "titulo": "Fallen Leaves"
+    "sinopsis": "Narra la historia de un 'adolescente tardío' que busca un pasaporte para huir de Argentina pero al que el regreso de su padre, que abandonó a la familia por un ideal, le trastoca los planes. Pese a ello, y gracias a este reencuentro, el hijo buscará a través de su padre su propia identidad.",
+    "titulo": "El Abrazo Partido"
   },
-  "Monster": {
-    "_id": 4,
-    "anio": 2023,
-    "director": "Hirokazu Kore-eda",
-    "duracion": "2 hr 5 min",
+  "North Circular": {
+    "_id": 2,
+    "anio": 2022,
+    "director": "Luke McManus",
+    "duracion": "1 hr 25 min",
     "especial": true,
     "fechas": {
       "semana": ["Jueves"],
-      "numero": ["30/11"]
+      "numero": ["21/03"]
     },
-    "genero": ["Crimen"],
-    "horario": ["20:20"],
-    "poster": "images/poster/monster.webp",
+    "genero": ["Documental", "Musical"],
+    "horario": ["20:00"],
+    "poster": "images/poster/north circular.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "Cuando su joven hijo Minato empieza a comportarse de forma extraña, su madre siente que algo va mal. Al descubrir que el responsable de todo ello es un profesor, irrumpe en la escuela exigiendo saber qué está pasando. Pero a medida que la historia se desarrolla a través de los ojos de la madre, el profesor y el niño, la verdad va saliendo a la luz, poco a poco...",
-    "titulo": "Monster"
+    "sinopsis": "El documental musical de Luke McManus recorre la carretera North Circular de Dublín, tropezando con sus habitantes y escuchando sus historias y canciones.",
+    "titulo": "North Circular"
   },
-  "About Dry Grasses": {
+  "Cuando acecha la maldad": {
+    "_id": 3,
+    "anio": 2023,
+    "director": "Demián Rugna",
+    "duracion": "1 hr 36 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+    },
+    "genero": ["Terror"],
+    "horario": ["12:00"],
+    "poster": "images/poster/cuando acecha la maldad.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "En un pueblo remoto, dos hermanos descubren a un hombre infectado por fuerzas malignas que está a punto de dar a luz a un demonio. Desesperados por evitar la entrada del Mal a su pacífico mundo, los hermanos descubrirán la terrible verdad: es demasiado tarde.",
+    "titulo": "Cuando acecha la maldad"
+  },
+  "Nueve Reinas": {
+    "_id": 4,
+    "anio": 2000,
+    "director": "Fabián Bielinsky",
+    "duracion": "1 hr 56 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+    },
+    "genero": ["Thriller"],
+    "horario": ["13:50", "20:15"],
+    "poster": "images/poster/nueve reinas.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "Buenos Aires. Juan y Marcos son dos estafadores de poca monta, uno joven y un veterano en el arte del timo, que casualmente se ven envueltos en un asunto que les puede hacer millonarios: tienen menos de un día para hacer una estafa que no puede fallar.",
+    "titulo": "Nueve Reinas (2000)"
+  },
+  "Tormenta de fuego": {
     "_id": 5,
-    "anio": 2023,
-    "director": "Nuri Bilge Ceylan",
-    "duracion": "3 hr 17 min",
-    "especial": true,
-    "fechas": {
-      "semana": ["Viernes"],
-      "numero": ["01/12"]
-    },
-    "genero": ["Drama"],
-    "horario": ["20:00"],
-    "poster": "images/poster/about dry grasses.webp",
-    "sala": "Leonardo Favio",
-    "sinopsis": "Un joven maestro espera ser designado para Estambul después de su servicio obligatorio en un pequeño pueblo. Después de mucho tiempo de espera, pierde toda esperanza de escapar de su vida sombría. Sin embargo, su colega Nuray le ayuda a recuperar la perspectiva.",
-    "titulo": "About Dry Grasses"
-  },
-  "The Zone of Interest": {
-    "_id": 6,
-    "anio": 2023,
-    "director": "Jonathan Glazer",
-    "duracion": "1 hr 45 min",
-    "especial": true,
-    "fechas": {
-      "semana": ["Domingo"],
-      "numero": ["03/12"]
-    },
-    "genero": ["Drama"],
-    "horario": ["20:00"],
-    "poster": "images/poster/the zone of interest.webp",
-    "sala": "Leonardo Favio",
-    "sinopsis": "El comandante de Auschwitz Rudolf Höss y su esposa Hedwig se esfuerzan en construir una vida de ensueño para su familia en una casa con jardín cerca del campo",
-    "titulo": "The Zone of Interest"
-  },
-  "Sexo y revolución": {
-    "_id": 7,
-    "anio": 2021,
-    "director": "Ernesto Ardito",
-    "duracion": "1 hr 43 min",
+    "anio": 2024,
+    "director": "Luciana Nacci",
+    "duracion": "1 hr 11 min",
     "especial": false,
     "fechas": {
       "semana": [
@@ -116,20 +97,37 @@
         "Lunes",
         "Miércoles"
       ],
-      "numero": ["23/11", "24/11", "25/11", "26/11", "27/11", "29/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "27/03"]
     },
     "genero": ["Documental"],
-    "horario": ["13:30"],
-    "poster": "images/poster/sexo y revolucion.webp",
+    "horario": ["16:05"],
+    "poster": "images/poster/tormenta.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "A inicios de los 70, en la Argentina, un grupo de homosexuales decidió enfrentarse al statu quo. Con el relato de sobrevivientes como fuente de denuncia, Sexo y revolución recupera las voces de quienes lucharon por ser reconocidos como actores políticos en una sociedad que no estaba preparada para ellos.",
-    "titulo": "Sexo y revolución"
+    "sinopsis": "El 9 de marzo del 2021 se registró en la zona de Chubut el incendio periurbano más grande de Latinoamérica. Los damnificados cuentan cómo perdieron sus casas y sus bienes sin poder hacer otra cosa que intentar sobrevivir ante la voracidad del fuego. Lo que todos sospechan es que detrás de los incendios hay una intencionalidad política y económica.",
+    "titulo": "Tormenta de fuego"
   },
-  "Un pájaro azul": {
-    "_id": 8,
+  "La sociedad de la nieve": {
+    "_id": 6,
     "anio": 2023,
-    "director": "Ariel Rotter",
-    "duracion": "1 hr 37 min",
+    "director": "Juan Antonio Bayona",
+    "duracion": "2 hr 25 min",
+    "especial": false,
+    "fechas": {
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes"],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03"]
+    },
+    "genero": ["Drama"],
+    "horario": ["17:30"],
+    "poster": "images/poster/la sociedad de la nieve.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "En 1972, el vuelo 571 de la Fuerza Aérea Uruguaya, fletado para llevar a un equipo de rugby a Chile, se estrella en un glaciar en el corazón de los Andes. Solo 29 de sus 45 pasajeros sobreviven al accidente. Atrapados en uno de los entornos más inaccesibles y hostiles del planeta, se ven obligados a recurrir a medidas extremas para mantenerse con vida.",
+    "titulo": "La Sociedad de la Nieve"
+  },
+  "Elda y los Monstruos": {
+    "_id": 7,
+    "anio": 2023,
+    "director": "Nicolás Herzog",
+    "duracion": "1 hr 13 min",
     "especial": false,
     "fechas": {
       "semana": [
@@ -138,41 +136,75 @@
         "Sábado",
         "Domingo",
         "Lunes",
+        "Martes",
         "Miércoles"
       ],
-      "numero": ["23/11", "24/11", "25/11", "26/11", "27/11", "29/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
-    "genero": ["Drama"],
-
-    "COMENTARIO": "if horario === 20:30 ? fechas excepto lunes 27 : excepto 6, 7 y 8",
-    "horario": ["15:45", "20:30"],
-    "poster": "images/poster/un pajaro azul.webp",
+    "genero": ["Documental"],
+    "horario": ["22:30"],
+    "poster": "images/poster/elda y los monstruos.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "Javier y Valeria hace años buscan tener un hijo que no llega. Un día aparece Camila, una compañera de trabajo de Javier, para contarle que está embarazada de él. Javier queda atrapado en un conflicto que con el paso de los días, dinamita su existencia y su vida de pareja.",
-    "titulo": "Un pájaro azul"
+    "sinopsis": "La magnética Elda quiere convertirse en una estrella de rock. Cuando no está cantando sobre un escenario, ella es Diego Detona, un profesor que vive con su familia en Concordia y que tiene ciertas dudas sobre su transición. ¿Cuál es el verdadero alter ego? ¿La decidida y ambiciosa Elda o el tímido e inseguro Diego? La respuesta intenta encontrarla en una peregrinación hacia el altar de una mujer trans que fue asesinada y luego convertida en La Muda, una suerte de santa popular a la que la gente del pueblo se acerca a pedirle ayuda.",
+    "titulo": "Elda y los Monstruos"
   },
-  "El duelo": {
-    "_id": 9,
+  "Reus 2": {
+    "_id": 8,
     "anio": 2023,
-    "director": "Augusto Tejada",
+    "director": "Eduardo Piñero Laens",
     "duracion": "1 hr 22 min",
     "especial": false,
     "fechas": {
-      "semana": ["Jueves", "Viernes", "Sábado", "Domingo"],
-      "numero": ["23/11", "24/11", "25/11", "26/11"]
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
-    "genero": ["Comedia"],
-    "horario": ["22:30"],
-    "poster": "images/poster/el duelo.webp",
-    "sala": "Leonardo Favio",
-    "sinopsis": "Ernesto es un hombre atrapado en una vida gris y atormentado por la depresión. Incapaz de encontrar el coraje para quitarse la vida, recurre a una red clandestina de sicarios para poner fin a su sufrimiento de una vez por todas. Pero su mundo se vuelve al revés cuando conoce a Rita, una hermosa mujer de la que se enamora perdidamente. Lo que iba a ser el fin de su vida se convierte en una gran aventura, una carrera frenética por salvar su vida, la de Rita, y el amor recién descubierto.",
-    "titulo": "El duelo"
+    "genero": ["Thriler"],
+
+    "COMENTARIO": "if horario === 20:30 ? fechas excepto lunes 27 : excepto 6, 7 y 8",
+    "horario": ["12:10"],
+    "poster": "images/poster/reus 2.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Uruguay, hoy. Dos familias se disputan el control de una zona del barrio Reus. Una lucha para recuperar su hogar y la otra por resolver asuntos pendientes con el principal comerciante de la zona. El conflicto genera un espiral de violencia que provoca un enfrentamiento entre las nuevas generaciones.",
+    "titulo": "Reus 2, La vuelta al barrio"
   },
-  "Las Milagros existen": {
+  "Chagas, orquesta invisible": {
+    "_id": 9,
+    "anio": 2024,
+    "director": "Lucas Martelli",
+    "duracion": "1 hr 7 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+    },
+    "genero": ["Documental"],
+    "horario": ["13:45"],
+    "poster": "images/poster/chagas.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "El documental visibiliza la la principal endemia parasitaria de la Argentina, las múltiples dimensiones que engloba y la labor de los trabajadores de la salud e investigadores que están tratando de contenerla.",
+    "titulo": "Chagas, orquesta invisible"
+  },
+  " Puan": {
     "_id": 10,
     "anio": 2023,
-    "director": "Andrés Llugany",
-    "duracion": "1 hr 37 min",
+    "director": "María Alché",
+    "duracion": "1 hr 50 min",
     "especial": false,
     "fechas": {
       "semana": [
@@ -184,136 +216,44 @@
         "Martes",
         "Miércoles"
       ],
-      "numero": ["23/11", "24/11", "25/11", "26/11", "27/11", "28/11", "29/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
-    "genero": ["Drama"],
-    "horario": ["12:30", "16:15", "22:15"],
-    "poster": "images/poster/las milagros existen.webp",
+    "genero": ["Comedia Dramática"],
+    "horario": ["15:10"],
+    "poster": "images/poster/puan.webp",
     "sala": "María Luisa Bemberg",
-    "sinopsis": "Milagros es una joven novicia que pasa sus días en el convento meditando acerca del sentido de las religiones, sumida en cuestionamientos propios de sus jóvenes e inquietos 20 años. Un día, conoce a otra Milagros, con quien inicia una relación de amistad y protección mutua. En el desarrollo de esa amistad, surgen diversas y extrañas coincidencias entre ellas, las cuales vuelven a aparecer en una tercera Milagros que se les cruza en el camino. A partir de estas coincidencias que las relacionan directamente con su nombre, las Milagros comienzan a dar forma a una nueva religión, que irá agrupando a cada vez más integrantes, cada vez más Milagros.",
-    "titulo": "Las Milagros existen"
+    "sinopsis": "Marcelo (Marcelo Subiotto), un hombre de unos 50 años, ha dedicado su vida a la enseñanza de Filosofía en la Facultad de Filosofía y Letras. Cuando su jefe de Cátedra, mentor y compañero de aventuras del pensamiento muere inesperadamente, Marcelo asume que heredará la titularidad de la Cátedra que ha quedado vacante. Lo que no imagina es que Rafael Sujarchuk (Leonardo Sbaraglia), un brillante y seductor colega, regresará desde Alemania para disputar el puesto vacante. Comienza entonces una batalla sin cuartel entre dos profesores extremadamente opuestos en sus estilos y pedagogías.",
+    "titulo": "Puan"
   },
-  "Manuel Ugarte. El destino de un continente": {
+  "Los Impactados": {
     "_id": 11,
     "anio": 2023,
-    "director": "Martín Pigna",
-    "duracion": "1 hr 18 min",
+    "director": "Lucia Puenzo",
+    "duracion": "1 hr 31 min",
     "especial": false,
     "fechas": {
-      "semana": ["Jueves", "Viernes", "Sábado", "Domingo"],
-      "numero": ["23/12", "24/12", "25/12", "26/12"]
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
-    "genero": ["Documental"],
-    "horario": ["18:30"],
-    "poster": "images/poster/manuel ugarte.webp",
+    "genero": ["Drama"],
+    "horario": ["17:20"],
+    "poster": "images/poster/impactados.jpg",
     "sala": "María Luisa Bemberg",
-    "sinopsis": "Realizado por Federico Molnar y Martín Pigna, sobre un guion escrito por Felipe Pigna, Martín Pigna, Federico Molnar y Jorge Falcone, en el que el historiador Felipe Pigna se embarca en un viaje de descubrimiento de la figura del pensador latinoamericanista, escritor y diplomático argentino Manuel Ugarte, uno de los primeros en bregar por la unidad latinoamericana y en denunciar los atropellos del imperialismo estadounidense.",
-    "titulo": "Manuel Ugarte. El destino de un continente"
+    "sinopsis": "El impacto de un rayo que sufre Ada durante una tormenta en el campo la reconfigura física y psíquicamente. Además de las secuelas visibles la inquietan una serie de extraños síntomas que no puede controlar: alucinaciones visuales y auditivas, descargas eléctricas y confusiones temporales que terminan alejándola de lo que fue su vida antes. Encuentra sostén en un grupo de impactados y el médico en quien confían ciegamente. Para Ada, el camino hacia la electrofilia será un viaje sin retorno.",
+    "titulo": "Los impactados"
   },
-  "Leni": {
+  "Abandono de cargo": {
     "_id": 12,
-    "anio": 2020,
-    "director": "Federico Gianotti",
-    "duracion": "1 hr 14 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["23/11", "24/11", "25/11", "26/11", "27/11", "28/11", "29/11"]
-    },
-    "genero": ["Comedia"],
-    "horario": ["14:30"],
-    "poster": "images/poster/leni.webp",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "Hace poco tiempo que Leni ha terminado una violenta y tóxica relación de pareja con Martín y las secuelas psicológicas que le quedaron son terribles. Por las noches Leni no puede descansar debido a unas turbulentas pesadillas, una situación que se agrava cuando esas escenas de violencia se confunden con la vida diaria. Al borde de la locura, Leni deberá enfrentar los monstruos del pasado si quiere conservar la cordura. ",
-    "titulo": "Leni"
-  },
-  "Roberto Goyeneche": {
-    "_id": 13,
     "anio": 2023,
-    "director": "Marcelo Goyeneche",
-    "duracion": "1 hr 43 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["23/11", "24/11", "25/11", "26/11", "27/11", "28/11", "29/11"]
-    },
-    "genero": ["Documental"],
-    "horario": ["16:30", "22:00"],
-    "poster": "images/poster/roberto goyeneche.webp",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "La vida de una de las leyendas del tango argentino, quien supo conquistar a un amplio público con su extraordinaria e irrepetible voz. Gracias al material de archivo desconocido -proporcionado por familiares y amigos- que consta de imágenes caseras, grabaciones inéditas y entrevistas, el documental reconstruye la vida de esta leyenda del tango a través de su propia voz. Un documental en primera persona, el relato de Goyeneche por Goyeneche.",
-    "titulo": "Roberto “Polaco” Goyeneche. Las formas de la noche"
-  },
-  "Romance de la ternura tardía": {
-    "_id": 14,
-    "anio": 2019,
-    "director": "Ana Bugni",
-    "duracion": "18 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["23/11", "24/11", "25/11", "26/11", "27/11", "28/11", "29/11"]
-    },
-    "genero": ["Documental"],
-    "horario": ["20:30"],
-    "poster": "images/poster/romance de la ternura tardia.webp",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "Este es un breve retrato de Chicha, la abuela, pero también en cierto modo de Inés, su hija, y tal vez de la hija de esa hija que es quien filma. Un retrato organizado alrededor de la única entrevista que Ana le hizo a su abuela, en el año 2012.",
-    "titulo": "Romance de la ternura tardía"
-  },
-  "El espacio que ocupo": {
-    "_id": 15,
-    "anio": 2023,
-    "director": "Agostina Gianini",
-    "duracion": "1 hr",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
-    },
-    "genero": ["Documental"],
-    "horario": ["16:20"],
-    "poster": "images/poster/el espacio que ocupo.webp",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "¿Cuáles son los mandatos heredados que cargan las mujeres? La directora se esconde detrás de la cámara, pero filmando a las mujeres de su familia construye una imagen de sí misma.",
-    "titulo": "El espacio que ocupo"
-  },
-  "El portal": {
-    "_id": 16,
-    "anio": 2023,
-    "director": "Andrés Perugini",
+    "director": "Alejandro Vagnenkos",
     "duracion": "1 hr 5 min",
     "especial": false,
     "fechas": {
@@ -326,20 +266,20 @@
         "Martes",
         "Miércoles"
       ],
-      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
     "genero": ["Documental"],
-    "horario": ["12:15"],
-    "poster": "images/poster/el portal.webp",
-    "sala": "Fernando Birri",
-    "sinopsis": "Rufino Tibaldi fue un curandero venerado por sus milagros en un pequeño pueblo de provincia, cuyo recuerdo se ve empañado por acusaciones sobre su manera de sanar. Fuerzas oscuras rondan la región y muchos vecinos se lo atribuyen a él, ¿pero qué hay detrás de estas creencias? ¿Realidad, sugestión o coincidencia? El portal es ese umbral entre los que creen y los que no creen.",
-    "titulo": "El portal"
+    "horario": ["19:15"],
+    "poster": "images/poster/abandono de cargo.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "¿Cómo hace una comunidad para tramitar las complicidades silenciosas detrás de la desaparición de un profesor durante la última dictadura civico-militar? ¿En dónde se encuentran los rastros de la delación? Silvana, una docente recién llegada al pueblo, intenta reconstruir un pasado irresuelto.",
+    "titulo": "Abandono de cargo"
   },
-  "Puan": {
-    "_id": 17,
-    "anio": 2023,
-    "director": "María Alché",
-    "duracion": "1 hr 47 min",
+  "Extravagantes": {
+    "_id": 13,
+    "anio": 2024,
+    "director": "Maximiliano Villar",
+    "duracion": "1 hr 1 min",
     "especial": false,
     "fechas": {
       "semana": [
@@ -351,44 +291,19 @@
         "Martes",
         "Miércoles"
       ],
-      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
-    "genero": ["Comedia"],
-    "horario": ["13:45", "22:00"],
-    "poster": "images/poster/puan.webp",
-    "sala": "Fernando Birri",
-    "sinopsis": "Marcelo (Marcelo Subiotto), un hombre de unos 50 años, ha dedicado su vida a la enseñanza de Filosofía en la Facultad de Filosofía y Letras. Cuando su jefe de Cátedra, mentor y compañero de aventuras del pensamiento muere inesperadamente, Marcelo asume que heredará la titularidad de la Cátedra que ha quedado vacante. Lo que no imagina es que Rafael Sujarchuk (Leonardo Sbaraglia), un brillante y seductor colega, regresará desde Alemania para disputar el puesto vacante. Comienza entonces una batalla sin cuartel entre dos profesores extremadamente opuestos en sus estilos y pedagogías.",
-    "titulo": "Puan"
+    "genero": ["Comedia Slacker"],
+    "horario": ["20:45"],
+    "poster": "images/poster/extravagantes.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Maxi y sus amigos se juntan a comer un asado y compartir una tranquila jornada de pileta, drogas, cartas y debates poco profundos sobre filosofía y política.",
+    "titulo": "Extravagantes"
   },
-  "No me rompan": {
-    "_id": 18,
-    "anio": 2023,
-    "director": "Azul Lombardía",
-    "duracion": "1 hr 34 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
-    },
-    "genero": ["Comedia"],
-    "horario": ["16:00"],
-    "poster": "images/poster/no me rompan.webp",
-    "sala": "Fernando Birri",
-    "sinopsis": "Dos mujeres que luchan contra sus ataques de ira se unen para derrotar a un cirujano mediático que pone en peligro sus vidas.",
-    "titulo": "No me rompan"
-  },
-  "Norma": {
-    "_id": 19,
-    "anio": 2023,
-    "director": "Santiago Giralt",
+  "La vida que siempre soñaste": {
+    "_id": 14,
+    "anio": 2020,
+    "director": "Germán Carver",
     "duracion": "1 hr 33 min",
     "especial": false,
     "fechas": {
@@ -401,20 +316,20 @@
         "Martes",
         "Miércoles"
       ],
-      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
     "genero": ["Drama"],
-    "horario": ["18:00"],
-    "poster": "images/poster/norma.webp",
-    "sala": "Fernando Birri",
-    "sinopsis": "Norma, una mujer de 64 años que vive una vida “normal”. Es una buena ciudadana de una pequeña localidad de provincia y es el vivo ejemplo de su nombre. Un día, Rosita, su empleada doméstica de toda la vida, decide renunciar sin darle mayores explicaciones. La realidad de Norma se desgarra y se transforma. Poco a poco, y ante la sorpresiva aparición en el pueblo de Judith, una psicóloga foránea, Norma comienza a romper las reglas y construye una red de vínculos con mujeres del pueblo que, como ella, desafían las convenciones del sistema en el que viven. Este viaje de autodescubrimiento le develará una nueva versión de sí misma, modificada por la experiencia de otras mujeres de diversas generaciones.",
-    "titulo": "Norma"
+    "horario": ["22:15"],
+    "poster": "images/poster/la vida que siempre sonaste.jpg",
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Configurado como un tríptico ambientado en los años 2013, 2015 y 2017. No es un film político, solo son pinceladas que tratan de las relaciones afectivas entre las personas sobre el lienzo de la realidad política del país.",
+    "titulo": "La vida que siempre soñaste"
   },
-  "El otro hijo": {
-    "_id": 20,
+  "El viento que arrasa": {
+    "_id": 15,
     "anio": 2023,
-    "director": " Juan Sebastián Quebrada",
-    "duracion": "1 hr 30 min",
+    "director": "Paula Hernández",
+    "duracion": "1 hr 31 min",
     "especial": false,
     "fechas": {
       "semana": [
@@ -426,13 +341,88 @@
         "Martes",
         "Miércoles"
       ],
-      "numero": ["02/11", "03/11", "04/11", "05/11", "06/11", "07/11", "08/11"]
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
     },
     "genero": ["Drama"],
-    "horario": ["20:00"],
-    "poster": "images/poster/el otro hijo.webp",
+    "horario": ["12:45", "18:00", "22:00"],
+    "poster": "images/poster/el viento que arrasa.jpg",
     "sala": "Fernando Birri",
-    "sinopsis": "Federico y su hermano Simón viven plenamente su adolescencia hasta el día en que Simón muere al caer de un balcón en una fiesta. Mientras su entorno familiar se desmorona ante sus ojos, Federico intenta vivir con normalidad sus últimas semanas de colegio. Incapaz de hacer el duelo, se va acercando a Laura, la novia de su hermano fallecido, en quien parece encontrar alivio.",
-    "titulo": "El espacio que ocupo"
+    "sinopsis": "Presa de la fe ciega de su padre, el Reverendo Pearson, Leni lo acompaña en su misión evangélica. Un accidente banal los obliga a detenerse en el taller del Gringo. Cuando el Reverendo se obsesiona con salvar el alma de Tapioca, el hijo del mecánico, Leni entiende que es momento de asumir su destino.",
+    "titulo": "El viento que arrasa"
+  },
+  "El juicio": {
+    "_id": 16,
+    "anio": 2023,
+    "director": "Ulises De La Orden",
+    "duracion": "2 hr 56 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+    },
+    "genero": ["Documental"],
+    "horario": ["14:40"],
+    "poster": "images/poster/el juicio.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "Año 1985: dos años después del fin de la dictadura militar en Argentina, los principales miembros de la junta son juzgados en los tribunales. Ulises de la Orden crea 18 capítulos sucintamente editados a partir de 530 horas de metraje, dando testimonio del terrorismo de Estado.",
+    "titulo": "El juicio"
+  },
+  "El pez ha muerto": {
+    "_id": 17,
+    "anio": 2016,
+    "director": "Judith Battaglia",
+    "duracion": "13 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+    },
+    "genero": ["Drama"],
+    "horario": ["18:00", "22:00"],
+    "poster": "images/poster/el pez ha muerto.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "Pamela, que tiene 9 años, está por tomar la primera comunión y su fe es inmensa. Intenta hacer un milagro pero no lo consigue... ¿Habrá hecho algo mal o será todo mentira?",
+    "titulo": "El pez ha muerto"
+  },
+  "Cross Dreamers": {
+    "_id": 18,
+    "anio": 2022,
+    "director": "Soledad Velasco",
+    "duracion": "1 hr 18 min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+    },
+    "genero": ["Documental"],
+    "horario": ["20:20"],
+    "poster": "images/poster/cross dreamers.jpg",
+    "sala": "Fernando Birri",
+    "sinopsis": "Ornella, Mabel, Paula y Mirna son protagonistas de la noche crossdresser de Buenos Aires y Rosario. Cada una, sin embargo, vive de manera diferente esta identidad desdoblada: mientras algunas querrían no volver nunca a su vida de varón, otras se sienten bien en la dualidad. Pero el deseo se enfrenta a menudo con los límites de una sociedad menos libre de lo que se piensa, y a cada una le espera un recorrido muy personal.",
+    "titulo": "Cross Dreamers"
   }
 }
