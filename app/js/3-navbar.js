@@ -9,9 +9,12 @@ root.appendChild(navbarComment);
 root.appendChild(navbar);
 
 for (let i = 0; i <= 2; i++) {
-  const navbarIds = ["cartelera", "ciclos", "precios"];
-  const navbarIconText = ["home", "theaters", "payments"];
-  const navbarLabelText = ["cartelera", "ciclos", "precios"];
+  const navbarIds = ["cartelera"];
+  // const navbarIds = ["cartelera", "ciclos", "precios"];
+  // const navbarIconText = ["home"];
+  // const navbarIconText = ["home", "theaters", "payments"];
+  const navbarLabelText = ["cartelera"];
+  // const navbarLabelText = ["cartelera", "cicl os", "precios"];
   const anchor = document.createElement("a");
   const icon = document.createElement("span");
   const label = document.createElement("span");
