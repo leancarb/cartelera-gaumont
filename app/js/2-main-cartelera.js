@@ -214,9 +214,9 @@ MSInformationBack.textContent = "Volver";
 MSInformationBack.classList.add("selection-information--back");
 MSInformationBack.href = "#";
 // Botón comprar
-MSInformationComprar.textContent = "Reservar";
-MSInformationComprar.classList.add("selection-information--comprar");
-MSInformationComprar.href = "#";
+// MSInformationComprar.textContent = "Reservar";
+// MSInformationComprar.classList.add("selection-information--comprar");
+// MSInformationComprar.href = "#";
 
 // #3 - Felicitaciones
 // prettier-ignore
