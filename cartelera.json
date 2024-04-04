@@ -37,7 +37,7 @@
     "_id": 3,
     "anio": 2000,
     "director": "Fabián Bielinsky",
-    "duracion": "https://www.themoviedb.org/t/p/w1280/AlUq2l4wSGXtu4Ema5h73J69UZn.jpg",
+    "duracion": "https://image.tmdb.org/t/p/w1280/AlUq2l4wSGXtu4Ema5h73J69UZn.jpg",
     "especial": false,
     "fechas": {
       "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
