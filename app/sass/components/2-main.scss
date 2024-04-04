@@ -198,7 +198,6 @@ FONT SIZE SYSTEM (px)
       user-select: none;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-evenly;
       gap: rem(16);
       padding-block: rem(12);
       margin-bottom: rem(-6);
@@ -212,6 +211,7 @@ FONT SIZE SYSTEM (px)
 
       @include breakpoint(medium) {
         grid-row: 4/5;
+        justify-content: space-evenly;
       }
       & li {
         padding-inline: rem(16);
