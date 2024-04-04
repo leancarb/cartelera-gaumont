@@ -14,8 +14,8 @@ const headerNavbar = document.createElement("nav");
 // prettier-ignore
 let headerNavbarElements = [
   { id: "cartelera", active: true, icon: "home", label: "cartelera", },
-  // { id: "ciclos", active: false, icon: "theaters", label: "ciclos", },
-  // { id: "precios", active: false, icon: "payments", label: "precios", },
+  { id: "ciclos", active: false, icon: "theaters", label: "ciclos", },
+  { id: "precios", active: false, icon: "payments", label: "precios", },
 ];
 
 headerNavbarElements.map((element) => {
@@ -29,7 +29,7 @@ headerNavbarElements.map((element) => {
 
   // Style
   headerNavbarItem.classList.add("header-navbar__item");
-  // headerNavbarItem.setAttribute("id", `${element.id}-header`);
+  headerNavbarItem.setAttribute("id", `${element.id}-header`);
   headerNavbarItem.id = `${element.id}-header`;
 
   // prettier-ignore
@@ -73,13 +73,13 @@ headerContainerLogo.addEventListener("click", () => {
   mainCartelera.classList.remove("hidden");
   mainCarteleraContainer.classList.remove("hidden");
   mainCarteleraMovieSelected.classList.add("hidden");
-  // mainCiclos.classList.add("hidden");
-  // mainCiclosContainer.classList.add("hidden");
-  // mainCiclosInformation.classList.add("hidden");
-  // mainPrecios.classList.add("hidden");
-  // mainFelicidadesContainer.classList.add("hidden");
-  // MSInformationFechas.innerHTML = "";
-  // MSInformationHorario.innerHTML = "";
+  mainCiclos.classList.add("hidden");
+  mainCiclosContainer.classList.add("hidden");
+  mainCiclosInformation.classList.add("hidden");
+  mainPrecios.classList.add("hidden");
+  mainFelicidadesContainer.classList.add("hidden");
+  MSInformationFechas.innerHTML = "";
+  MSInformationHorario.innerHTML = "";
 
   // Cambiar la clase active cuando toco el logo
   headerNavbarItems.forEach((item, index) => {
@@ -130,14 +130,14 @@ headerNavbarItems.forEach((item, index) => {
 
 // Add/remove class hidden
 const carteleraHeaderBtn = document.querySelector("#cartelera-header");
-// const ciclosHeaderBtn = document.querySelector("#ciclos-header");
-// const preciosHeaderBtn = document.querySelector("#precios-header");
+const ciclosHeaderBtn = document.querySelector("#ciclos-header");
+const preciosHeaderBtn = document.querySelector("#precios-header");
 
 //// funcion que haga esto para que no sea repetitivo
 carteleraHeaderBtn.addEventListener("click", () => {
   mainCartelera.classList.remove("hidden");
-  // mainCiclos.classList.add("hidden");
-  // mainPrecios.classList.add("hidden");
+  mainCiclos.classList.add("hidden");
+  mainPrecios.classList.add("hidden");
 
   // Si estas en una peli tocas cartelera elimina los li
   MSInformationFechas.innerHTML = "";
