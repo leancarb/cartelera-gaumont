@@ -1,428 +1,189 @@
 {
-  "El Abrazo Partido": {
+  "Eureka": {
     "_id": 1,
     "anio": 2023,
-    "director": "Daniel Burman",
-    "duracion": "1 hr 40 min",
+    "director": "Lisandro Alonso",
+    "duracion": "2hr 26min",
     "especial": true,
     "fechas": {
-      "semana": ["Miércoles"],
-      "numero": ["27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
     "genero": ["Drama"],
-    "horario": ["20:00"],
-    "poster": "images/poster/el abrazo partido.jpg",
+    "horario": ["17:15"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/sHZnAEVAZxH3kCSpvlyFUO7BFmf.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "Narra la historia de un 'adolescente tardío' que busca un pasaporte para huir de Argentina pero al que el regreso de su padre, que abandonó a la familia por un ideal, le trastoca los planes. Pese a ello, y gracias a este reencuentro, el hijo buscará a través de su padre su propia identidad.",
-    "titulo": "El Abrazo Partido"
+    "sinopsis": "Alaina está cansada de ser oficial de policía en la reserva de Pine Ridge y decide dejar de contestar su radio. Su sobrina Sadie pasa una larga noche esperándola, sin éxito. Herida, decide emprender su viaje con la ayuda de su abuelo: volará a través del tiempo y el espacio hasta Sudamérica, finalmente dejará de ver viejos westerns en blanco y negro que no la representan de ninguna manera, y todo se sentirá diferente. cuando escucha los sueños de otras personas, las que viven en el bosque. Pero no habrá conclusiones definitivas…",
+    "titulo": "Eureka"
   },
-  "North Circular": {
+  "La renga: Totalmente poseídos": {
     "_id": 2,
-    "anio": 2022,
-    "director": "Luke McManus",
-    "duracion": "1 hr 25 min",
+    "anio": 2023,
+    "director": "Diego Stokeli",
+    "duracion": "1hr 33min",
     "especial": true,
     "fechas": {
-      "semana": ["Jueves"],
-      "numero": ["21/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
-    "genero": ["Documental", "Musical"],
-    "horario": ["20:00"],
-    "poster": "images/poster/north circular.jpg",
+    "genero": ["Documental"],
+    "horario": ["22:15"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/e0unTzEcZe1xOWNZvPLiD1yvRco.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "El documental musical de Luke McManus recorre la carretera North Circular de Dublín, tropezando con sus habitantes y escuchando sus historias y canciones.",
-    "titulo": "North Circular"
+    "sinopsis": "Narra el viaje de un grupo de amigos que se entregó a la ruta para escribir las páginas de una bitácora que nunca se termina. Montañas, valles, ríos y desiertos dibujan un mapa a través del cual navegan cabalgando sus motos, como lo hacen desde hace más de 30 años.",
+    "titulo": "La renga: Totalmente poseídos"
   },
-  "Cuando acecha la maldad": {
+  "Nueve reinas": {
     "_id": 3,
-    "anio": 2023,
-    "director": "Demián Rugna",
-    "duracion": "1 hr 36 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Terror"],
-    "horario": ["12:00"],
-    "poster": "images/poster/cuando acecha la maldad.jpg",
-    "sala": "Leonardo Favio",
-    "sinopsis": "En un pueblo remoto, dos hermanos descubren a un hombre infectado por fuerzas malignas que está a punto de dar a luz a un demonio. Desesperados por evitar la entrada del Mal a su pacífico mundo, los hermanos descubrirán la terrible verdad: es demasiado tarde.",
-    "titulo": "Cuando acecha la maldad"
-  },
-  "Nueve Reinas": {
-    "_id": 4,
     "anio": 2000,
     "director": "Fabián Bielinsky",
-    "duracion": "1 hr 56 min",
+    "duracion": "https://www.themoviedb.org/t/p/w1280/AlUq2l4wSGXtu4Ema5h73J69UZn.jpg",
     "especial": false,
     "fechas": {
-      "semana": [
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
     "genero": ["Thriller"],
-    "horario": ["13:50", "20:15"],
-    "poster": "images/poster/nueve reinas.jpg",
+    "horario": ["14:45"],
+    "poster": "1hr 56min",
     "sala": "Leonardo Favio",
     "sinopsis": "Buenos Aires. Juan y Marcos son dos estafadores de poca monta, uno joven y un veterano en el arte del timo, que casualmente se ven envueltos en un asunto que les puede hacer millonarios: tienen menos de un día para hacer una estafa que no puede fallar.",
-    "titulo": "Nueve Reinas (2000)"
+    "titulo": "Nueve reinas (2000)"
   },
-  "Tormenta de fuego": {
-    "_id": 5,
-    "anio": 2024,
-    "director": "Luciana Nacci",
-    "duracion": "1 hr 11 min",
+  "El viaje de Alba": {
+    "_id": 4,
+    "anio": 2023,
+    "director": "Omar Neri",
+    "duracion": "1hr 8min",
     "especial": false,
     "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
     "genero": ["Documental"],
-    "horario": ["16:05"],
-    "poster": "images/poster/tormenta.jpg",
+    "horario": ["14:00"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/b3rl3r531Z2uADFHidyd8PLxOxy.jpg",
     "sala": "Leonardo Favio",
-    "sinopsis": "El 9 de marzo del 2021 se registró en la zona de Chubut el incendio periurbano más grande de Latinoamérica. Los damnificados cuentan cómo perdieron sus casas y sus bienes sin poder hacer otra cosa que intentar sobrevivir ante la voracidad del fuego. Lo que todos sospechan es que detrás de los incendios hay una intencionalidad política y económica.",
-    "titulo": "Tormenta de fuego"
-  },
-  "La sociedad de la nieve": {
-    "_id": 6,
-    "anio": 2023,
-    "director": "Juan Antonio Bayona",
-    "duracion": "2 hr 25 min",
-    "especial": false,
-    "fechas": {
-      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes"],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03"]
-    },
-    "genero": ["Drama"],
-    "horario": ["17:30"],
-    "poster": "images/poster/la sociedad de la nieve.jpg",
-    "sala": "Leonardo Favio",
-    "sinopsis": "En 1972, el vuelo 571 de la Fuerza Aérea Uruguaya, fletado para llevar a un equipo de rugby a Chile, se estrella en un glaciar en el corazón de los Andes. Solo 29 de sus 45 pasajeros sobreviven al accidente. Atrapados en uno de los entornos más inaccesibles y hostiles del planeta, se ven obligados a recurrir a medidas extremas para mantenerse con vida.",
-    "titulo": "La Sociedad de la Nieve"
-  },
-  "Elda y los Monstruos": {
-    "_id": 7,
-    "anio": 2023,
-    "director": "Nicolás Herzog",
-    "duracion": "1 hr 13 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Documental"],
-    "horario": ["22:30"],
-    "poster": "images/poster/elda y los monstruos.jpg",
-    "sala": "Leonardo Favio",
-    "sinopsis": "La magnética Elda quiere convertirse en una estrella de rock. Cuando no está cantando sobre un escenario, ella es Diego Detona, un profesor que vive con su familia en Concordia y que tiene ciertas dudas sobre su transición. ¿Cuál es el verdadero alter ego? ¿La decidida y ambiciosa Elda o el tímido e inseguro Diego? La respuesta intenta encontrarla en una peregrinación hacia el altar de una mujer trans que fue asesinada y luego convertida en La Muda, una suerte de santa popular a la que la gente del pueblo se acerca a pedirle ayuda.",
-    "titulo": "Elda y los Monstruos"
-  },
-  "Reus 2": {
-    "_id": 8,
-    "anio": 2023,
-    "director": "Eduardo Piñero Laens",
-    "duracion": "1 hr 22 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Thriler"],
-
-    "COMENTARIO": "if horario === 20:30 ? fechas excepto lunes 27 : excepto 6, 7 y 8",
-    "horario": ["12:10"],
-    "poster": "images/poster/reus 2.jpg",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "Uruguay, hoy. Dos familias se disputan el control de una zona del barrio Reus. Una lucha para recuperar su hogar y la otra por resolver asuntos pendientes con el principal comerciante de la zona. El conflicto genera un espiral de violencia que provoca un enfrentamiento entre las nuevas generaciones.",
-    "titulo": "Reus 2, La vuelta al barrio"
-  },
-  "Chagas, orquesta invisible": {
-    "_id": 9,
-    "anio": 2024,
-    "director": "Lucas Martelli",
-    "duracion": "1 hr 7 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Documental"],
-    "horario": ["13:45"],
-    "poster": "images/poster/chagas.jpg",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "El documental visibiliza la la principal endemia parasitaria de la Argentina, las múltiples dimensiones que engloba y la labor de los trabajadores de la salud e investigadores que están tratando de contenerla.",
-    "titulo": "Chagas, orquesta invisible"
-  },
-  " Puan": {
-    "_id": 10,
-    "anio": 2023,
-    "director": "María Alché",
-    "duracion": "1 hr 50 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Comedia Dramática"],
-    "horario": ["15:10"],
-    "poster": "images/poster/puan.webp",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "Marcelo (Marcelo Subiotto), un hombre de unos 50 años, ha dedicado su vida a la enseñanza de Filosofía en la Facultad de Filosofía y Letras. Cuando su jefe de Cátedra, mentor y compañero de aventuras del pensamiento muere inesperadamente, Marcelo asume que heredará la titularidad de la Cátedra que ha quedado vacante. Lo que no imagina es que Rafael Sujarchuk (Leonardo Sbaraglia), un brillante y seductor colega, regresará desde Alemania para disputar el puesto vacante. Comienza entonces una batalla sin cuartel entre dos profesores extremadamente opuestos en sus estilos y pedagogías.",
-    "titulo": "Puan"
-  },
-  "Los Impactados": {
-    "_id": 11,
-    "anio": 2023,
-    "director": "Lucia Puenzo",
-    "duracion": "1 hr 31 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Drama"],
-    "horario": ["17:20"],
-    "poster": "images/poster/impactados.jpg",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "El impacto de un rayo que sufre Ada durante una tormenta en el campo la reconfigura física y psíquicamente. Además de las secuelas visibles la inquietan una serie de extraños síntomas que no puede controlar: alucinaciones visuales y auditivas, descargas eléctricas y confusiones temporales que terminan alejándola de lo que fue su vida antes. Encuentra sostén en un grupo de impactados y el médico en quien confían ciegamente. Para Ada, el camino hacia la electrofilia será un viaje sin retorno.",
-    "titulo": "Los impactados"
-  },
-  "Abandono de cargo": {
-    "_id": 12,
-    "anio": 2023,
-    "director": "Alejandro Vagnenkos",
-    "duracion": "1 hr 5 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Documental"],
-    "horario": ["19:15"],
-    "poster": "images/poster/abandono de cargo.jpg",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "¿Cómo hace una comunidad para tramitar las complicidades silenciosas detrás de la desaparición de un profesor durante la última dictadura civico-militar? ¿En dónde se encuentran los rastros de la delación? Silvana, una docente recién llegada al pueblo, intenta reconstruir un pasado irresuelto.",
-    "titulo": "Abandono de cargo"
-  },
-  "Extravagantes": {
-    "_id": 13,
-    "anio": 2024,
-    "director": "Maximiliano Villar",
-    "duracion": "1 hr 1 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Comedia Slacker"],
-    "horario": ["20:45"],
-    "poster": "images/poster/extravagantes.jpg",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "Maxi y sus amigos se juntan a comer un asado y compartir una tranquila jornada de pileta, drogas, cartas y debates poco profundos sobre filosofía y política.",
-    "titulo": "Extravagantes"
-  },
-  "La vida que siempre soñaste": {
-    "_id": 14,
-    "anio": 2020,
-    "director": "Germán Carver",
-    "duracion": "1 hr 33 min",
-    "especial": false,
-    "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
-    },
-    "genero": ["Drama"],
-    "horario": ["22:15"],
-    "poster": "images/poster/la vida que siempre sonaste.jpg",
-    "sala": "María Luisa Bemberg",
-    "sinopsis": "Configurado como un tríptico ambientado en los años 2013, 2015 y 2017. No es un film político, solo son pinceladas que tratan de las relaciones afectivas entre las personas sobre el lienzo de la realidad política del país.",
-    "titulo": "La vida que siempre soñaste"
+    "sinopsis": "Alba busca comprender el vínculo entre cultura y revolución, y focaliza su mirada en la historia de la revista y editorial La Rosa Blindada y en el poeta y editor José Luis Mangieri, su mayor impulsor. Mientras atraviesa con su bicicleta espacios urbanos y tiempos históricos, Alba convierte su experiencia en un diario de viaje poético y ensoñado.",
+    "titulo": "El viaje de Alba"
   },
   "El viento que arrasa": {
-    "_id": 15,
+    "_id": 5,
     "anio": 2023,
     "director": "Paula Hernández",
-    "duracion": "1 hr 31 min",
+    "duracion": "1hr 31min",
     "especial": false,
     "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
     "genero": ["Drama"],
-    "horario": ["12:45", "18:00", "22:00"],
-    "poster": "images/poster/el viento que arrasa.jpg",
-    "sala": "Fernando Birri",
+    "horario": ["15:30", "22:30"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/2aFGrFjyX6i6wL3waSUmY3ZN577.jpg",
+    "sala": "Leonardo Favio",
     "sinopsis": "Presa de la fe ciega de su padre, el Reverendo Pearson, Leni lo acompaña en su misión evangélica. Un accidente banal los obliga a detenerse en el taller del Gringo. Cuando el Reverendo se obsesiona con salvar el alma de Tapioca, el hijo del mecánico, Leni entiende que es momento de asumir su destino.",
     "titulo": "El viento que arrasa"
   },
-  "El juicio": {
-    "_id": 16,
+  "Puan": {
+    "_id": 6,
     "anio": 2023,
-    "director": "Ulises De La Orden",
-    "duracion": "2 hr 56 min",
+    "director": "María Alché",
+    "duracion": "1hr 50min",
     "especial": false,
     "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
-    "genero": ["Documental"],
-    "horario": ["14:40"],
-    "poster": "images/poster/el juicio.jpg",
-    "sala": "Fernando Birri",
-    "sinopsis": "Año 1985: dos años después del fin de la dictadura militar en Argentina, los principales miembros de la junta son juzgados en los tribunales. Ulises de la Orden crea 18 capítulos sucintamente editados a partir de 530 horas de metraje, dando testimonio del terrorismo de Estado.",
-    "titulo": "El juicio"
+    "genero": ["Comedia Dramática"],
+    "horario": ["12:45"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/oUGwasElL1jrMd8PwQBBdswTr4F.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "Marcelo (Marcelo Subiotto), un hombre de unos 50 años, ha dedicado su vida a la enseñanza de Filosofía en la Facultad de Filosofía y Letras. Cuando su jefe de Cátedra, mentor y compañero de aventuras del pensamiento muere inesperadamente, Marcelo asume que heredará la titularidad de la Cátedra que ha quedado vacante. Lo que no imagina es que Rafael Sujarchuk (Leonardo Sbaraglia), un brillante y seductor colega, regresará desde Alemania para disputar el puesto vacante. Comienza entonces una batalla sin cuartel entre dos profesores extremadamente opuestos en sus estilos y pedagogías.",
+    "titulo": "Puan"
   },
-  "El pez ha muerto": {
-    "_id": 17,
-    "anio": 2016,
-    "director": "Judith Battaglia",
-    "duracion": "13 min",
+  "Descansar en paz": {
+    "_id": 7,
+    "anio": 2023,
+    "director": "Sebastián Borensztein",
+    "duracion": "1hr 45min",
     "especial": false,
     "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Thriller"],
+    "horario": ["22:30"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/7xdbXo63wcUZ3TLwrjwg35m1TEm.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "Un hombre de familia, acorralado por las deudas, decide aprovechar una circunstancia única e imprevisible para desaparecer. Después de muchos años de vivir alejado de su país bajo una identidad falsa, un hallazgo fortuito pone a prueba la tentación irresistible de querer saber cómo ha continuado la vida de los suyos en su ausencia. La pregunta se vuelve obsesión: ¿Se puede desaparecer y olvidar toda una vida? ¿Se puede empezar de cero y nunca más mirar atrás?",
+    "titulo": "Descansar en paz"
+  },
+  "La noche que luché contra Dios": {
+    "_id": 8,
+    "anio": 2023,
+    "director": "Rodrigo Fernández Engler",
+    "duracion": "1hr 43min",
+    "especial": false,
+    "fechas": {
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
     "genero": ["Drama"],
-    "horario": ["18:00", "22:00"],
-    "poster": "images/poster/el pez ha muerto.jpg",
-    "sala": "Fernando Birri",
-    "sinopsis": "Pamela, que tiene 9 años, está por tomar la primera comunión y su fe es inmensa. Intenta hacer un milagro pero no lo consigue... ¿Habrá hecho algo mal o será todo mentira?",
-    "titulo": "El pez ha muerto"
+    "horario": ["12:30", "17:00", "22:00"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/fo4vGiFYHd3vhnqSptFGYvYansg.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "El 18 de julio de 1994, el joven Benjamín Sheinberg inicia su primer día como médico residente en el Hospital de Clínicas, en Buenos Aires, mientras que al mismo tiempo una bomba explota en la AMIA causando la muerte de 85 personas. Sheinberg se ve sobrepasado por la situación que lo afecta más allá de lo profesional y decide marcharse a Israel. Allí, de la mano de Rubén, un viejo amigo de su abuelo, “viajará” en el tiempo, adentrándose en la antigua historia de Israel, viéndose reflejado en el milenario personaje Jacob. Pero, ¿qué conexión hay entre ambos personajes?",
+    "titulo": "La noche que luché contra Dios"
   },
-  "Cross Dreamers": {
-    "_id": 18,
-    "anio": 2022,
-    "director": "Soledad Velasco",
-    "duracion": "1 hr 18 min",
+  "Clara se pierde en el bosque": {
+    "_id": 9,
+    "anio": 2023,
+    "director": "Camila Fabbri",
+    "duracion": "1hr 26min",
     "especial": false,
     "fechas": {
-      "semana": [
-        "Jueves",
-        "Viernes",
-        "Sábado",
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Miércoles"
-      ],
-      "numero": ["21/03", "22/03", "23/03", "24/03", "25/03", "26/03", "27/03"]
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["12:15", "17:30", "20:45"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/mcSnzmbdUgmCuTpLYQRPZfalXmU.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "Clara se aleja de la ciudad en un viaje familiar hacia las afueras. Recibe un mensaje de Martina, su amiga de la infancia, con quien estuvo en República Cromañón la noche de la tragedia, que pone en primer plano la idea de la maternidad. A partir de este disparo de presente y realidad, mediante audios de Whatsapp, vídeos caseros y almuerzos familiares, se desata una revisión exhaustiva sobre su propia adolescencia y la de sus amigos en una ciudad devastada por la crisis y por una tragedia.",
+    "titulo": "Clara se pierde en el bosque"
+  },
+  "Hemshej": {
+    "_id": 10,
+    "anio": 2023,
+    "director": "Julieta Lande",
+    "duracion": "1hr 11min",
+    "especial": false,
+    "fechas": {
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
     },
     "genero": ["Documental"],
-    "horario": ["20:20"],
-    "poster": "images/poster/cross dreamers.jpg",
-    "sala": "Fernando Birri",
-    "sinopsis": "Ornella, Mabel, Paula y Mirna son protagonistas de la noche crossdresser de Buenos Aires y Rosario. Cada una, sin embargo, vive de manera diferente esta identidad desdoblada: mientras algunas querrían no volver nunca a su vida de varón, otras se sienten bien en la dualidad. Pero el deseo se enfrenta a menudo con los límites de una sociedad menos libre de lo que se piensa, y a cada una le espera un recorrido muy personal.",
-    "titulo": "Cross Dreamers"
+    "horario": ["19:15"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/4q4Xk5cjnMfMQQ0rfM23SWZcezX.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "En 1939, Joel y Jana escapan de su pueblo por la llegada de los nazis. Esa decisión los convertiría en los únicos de su familia en sobrevivir al Holocausto. 80 años más tarde, Julieta, su nieta, decide desandar sus pasos para entender qué hay detrás del silencio de su padre. Entonces, comienza a sospechar que hay una parte de su propia historia que le fue omitida.",
+    "titulo": "Hemshej"
+  },
+  "Canelones": {
+    "_id": 11,
+    "anio": 2023,
+    "director": "Nicolás Mayer",
+    "duracion": "13min",
+    "especial": true,
+    "fechas": {
+      "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["19:30"],
+    "poster": "https://www.themoviedb.org/t/p/w1280/vhtCiU2tNPDjoutBLM18A066tw6.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "",
+    "titulo": "Canelones"
   }
 }
