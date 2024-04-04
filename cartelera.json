@@ -37,7 +37,7 @@
     "_id": 3,
     "anio": 2000,
     "director": "Fabián Bielinsky",
-    "duracion": "https://i.imgur.com/wpfwstp.jpeg",
+    "duracion": "1hr 56min",
     "especial": false,
     "fechas": {
       "semana": ["Jueves", "Viernes", "Sábado", "Domingo", "Lunes", "Martes", "Miércoles"],
@@ -45,7 +45,7 @@
     },
     "genero": ["Thriller"],
     "horario": ["14:45"],
-    "poster": "1hr 56min",
+    "poster": "https://image.tmdb.org/t/p/w1280/AlUq2l4wSGXtu4Ema5h73J69UZn.jpg",
     "sala": "Leonardo Favio",
     "sinopsis": "Buenos Aires. Juan y Marcos son dos estafadores de poca monta, uno joven y un veterano en el arte del timo, que casualmente se ven envueltos en un asunto que les puede hacer millonarios: tienen menos de un día para hacer una estafa que no puede fallar.",
     "titulo": "Nueve reinas (2000)"
