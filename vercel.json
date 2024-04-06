@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    { "source": "/eureka", "destination": "/eureka.html" },
+    {
+      "source": "/la-renga-totalmente-poseidos",
+      "destination": "/la-renga-totalmente-poseidos.html"
+    },
+    { "source": "/nueve-reinas", "destination": "/nueve-reinas.html" },
+    { "source": "/el-viaje-de-alba", "destination": "/el-viaje-de-alba.html" },
+    {
+      "source": "/el-viento-que-arrasa",
+      "destination": "/el-viento-que-arrasa.html"
+    },
+    { "source": "/puan", "destination": "/puan.html" },
+    { "source": "/descansar-en-paz", "destination": "/descansar-en-paz.html" },
+    {
+      "source": "/la-noche-que-luche-contra-dios",
+      "destination": "/la-noche-que-luche-contra-dios.html"
+    },
+    {
+      "source": "/clara-se-pierde-en-el-bosque",
+      "destination": "/clara-se-pierde-en-el-bosque.html"
+    },
+    { "source": "/hemshej", "destination": "/hemshej.html" },
+    { "source": "/canelones", "destination": "/canelones.html" }
+  ]
+}
