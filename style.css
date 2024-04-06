@@ -194,12 +194,12 @@ FONT SIZE SYSTEM (px)
   padding: 1.5rem 0;
 }
 
-@media (min-width: 40em) {
+/* @media (min-width: 40em) {
   .header {
     justify-content: space-between;
     padding: 4vh 10%;
   }
-}
+} */
 .header-container {
   display: block;
 }
@@ -348,7 +348,8 @@ FONT SIZE SYSTEM (px)
   cursor: pointer;
   aspect-ratio: 2/3;
   border-radius: 0.25rem;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
 }
 
 /*
@@ -887,7 +888,8 @@ FONT SIZE SYSTEM (px)
   color: var(--clr-black-blue);
 }
 
-.navbar__item:link, .navbar__item:visited {
+.navbar__item:link,
+.navbar__item:visited {
   color: var(--clr-black-blue);
   text-decoration: none;
 }
