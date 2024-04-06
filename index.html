@@ -7,21 +7,15 @@
   <link rel="canonical" href="https://www.gaumont.com.ar/" />
   <meta name="description"
     content="Cartelera del Cine Gaumont. Consulta la cartelera, disfruta de emocionantes ciclos temáticos y conoce nuestros atractivos precios. 🎬🍿" />
-  <!-- Color ventana Chrome Android -->
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#1f4298" />
-  <!-- Favicon -->
   <link rel="icon" href="images/logos/GAUMONT_LOGO_BLANCO.webp" />
   <link rel="stylesheet" href="style.css" />
-  <script src="app.js" defer></script>
-
   <title>Cartelera Gaumont</title>
 </head>
 
 <body>
-
   <!-- HEADER -->
   <header class="header">
-    <!--Logo-->
     <div class="header-container">
       <img src="images/logos/GAUMONT_LOGO_azul.webp" alt="Logo Gaumont" class="header-container--logo">
     </div>
@@ -32,6 +26,14 @@
     <div class="cartelera-container"></div>
   </section>
 
+  <!-- DETALLES DE LA PELÍCULA -->
+  <section id="movie-details" style="display:none;">
+    <h2 id="movie-title"></h2>
+    <img id="movie-poster" src="" alt="Poster">
+    <!-- Agrega más elementos según necesites mostrar otros detalles -->
+  </section>
+
+  <script src="app.js" defer></script>
 </body>
 
 </html>
