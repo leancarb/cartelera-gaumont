@@ -19,7 +19,7 @@ function createMovies(json) {
     movieContainer.classList.add("cartelera-container-movie");
 
     const movieLink = document.createElement("a");
-    movieLink.href = `/${value.url}`;
+    movieLink.href = `/${value.url}.html`;
     // movieLink.target = "_BLANK";
     movieLink.dataset.url = value.url; // Usamos dataset para almacenar la URL
     movieLink.classList.add("movie-link");
