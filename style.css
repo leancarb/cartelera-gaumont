@@ -29,6 +29,7 @@ FONT SIZE SYSTEM (px)
 */
 body {
   background: var(--clr-background);
+  padding-bottom: 42px;
 }
 
 h1 {
@@ -386,6 +387,10 @@ FONT SIZE SYSTEM (px)
 @media (min-width: 71.875em) {
   .selection-container {
     max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Ajusta la altura de acuerdo a tus necesidades */
   }
 }
 .selection-movie--poster {
@@ -428,6 +433,11 @@ FONT SIZE SYSTEM (px)
   grid-column: 1/-1;
 }
 
+.selection-information__container--director,
+.selection-information__container--duration,
+.selection-information__container--genre {
+  text-align: center;
+}
 @media (min-width: 40em) {
   .selection-information__container {
     grid-row: 3/4;
