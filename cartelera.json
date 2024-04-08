@@ -2,7 +2,7 @@
   "Eureka": {
     "_id": 1,
     "anio": 2023,
-    "url": "film/eureka",
+    "url": "eureka",
     "director": "Lisandro Alonso",
     "duracion": "2hr 26min",
     "especial": true,
@@ -28,7 +28,7 @@
   "La renga: Totalmente poseídos": {
     "_id": 2,
     "anio": 2023,
-    "url": "film/la-renga",
+    "url": "la-renga",
     "director": "Diego Stokeli",
     "duracion": "1hr 33min",
     "especial": true,
@@ -54,7 +54,7 @@
   "Nueve reinas": {
     "_id": 3,
     "anio": 2000,
-    "url": "film/nueve-reinas",
+    "url": "nueve-reinas",
     "director": "Fabián Bielinsky",
     "duracion": "1hr 56min",
     "especial": false,
@@ -80,7 +80,7 @@
   "El viaje de Alba": {
     "_id": 4,
     "anio": 2023,
-    "url": "film/el-viaje-de-alba",
+    "url": "el-viaje-de-alba",
     "director": "Omar Neri",
     "duracion": "1hr 8min",
     "especial": false,
@@ -106,7 +106,7 @@
   "El viento que arrasa": {
     "_id": 5,
     "anio": 2023,
-    "url": "film/el-viento-que-arrasa",
+    "url": "el-viento-que-arrasa",
     "director": "Paula Hernández",
     "duracion": "1hr 31min",
     "especial": false,
@@ -132,7 +132,7 @@
   "Puan": {
     "_id": 6,
     "anio": 2023,
-    "url": "film/puan",
+    "url": "puan",
     "director": "María Alché",
     "duracion": "1hr 50min",
     "especial": false,
@@ -158,7 +158,7 @@
   "Descansar en paz": {
     "_id": 7,
     "anio": 2023,
-    "url": "film/descansar-en-paz",
+    "url": "descansar-en-paz",
     "director": "Sebastián Borensztein",
     "duracion": "1hr 45min",
     "especial": false,
@@ -183,7 +183,7 @@
   "La noche que luché contra Dios": {
     "_id": 8,
     "anio": 2023,
-    "url": "film/la-noche-que-luche-contra-dios",
+    "url": "la-noche-que-luche-contra-dios",
     "director": "Rodrigo Fernández Engler",
     "duracion": "1hr 43min",
     "especial": false,
@@ -209,7 +209,7 @@
   "Clara se pierde en el bosque": {
     "_id": 9,
     "anio": 2023,
-    "url": "film/clara-se-pierde-en-el-bosque",
+    "url": "clara-se-pierde-en-el-bosque",
     "director": "Camila Fabbri",
     "duracion": "1hr 26min",
     "especial": false,
@@ -235,7 +235,7 @@
   "Hemshej": {
     "_id": 10,
     "anio": 2023,
-    "url": "film/hemshej",
+    "url": "hemshej",
     "director": "Julieta Lande",
     "duracion": "1hr 11min",
     "fechas": {
@@ -260,7 +260,7 @@
   "Historias Breves 21": {
     "_id": 11,
     "anio": 2023,
-    "url": "film/historias-breves-21",
+    "url": "historias-breves-21",
     "director": "Varios",
     "duracion": "2hr 3min",
     "fechas": {
