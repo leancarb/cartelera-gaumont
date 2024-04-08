@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((json) => {
       moviesData = json; // Almacena los datos de las películas globalmente
       createMovies(json);
+      loadMovieDetails(movieUrl);
     })
     .catch((error) => console.error("Error loading JSON:", error));
 });
@@ -19,7 +20,7 @@ function createMovies(json) {
 
     const movieLink = document.createElement("a");
     movieLink.href = `/${value.url}`;
-    movieLink.target = "_BLANK";
+    // movieLink.target = "_BLANK";
     movieLink.dataset.url = value.url; // Usamos dataset para almacenar la URL
     movieLink.classList.add("movie-link");
     movieContainer.appendChild(movieLink);
@@ -48,11 +49,7 @@ function loadMovieDetails(movieUrl) {
     return;
   }
 
-  // Actualiza el DOM con los detalles de la película
-  document.getElementById("movie-title").textContent = movie.titulo;
-  document.getElementById("movie-poster").src = movie.poster;
-  document.getElementById("movie-poster").alt = `${movie.titulo} poster`;
-
-  // Muestra el contenedor de detalles de la película
-  document.getElementById("movie-details").style.display = "block";
+  // Detalles
+  document.querySelector(".movie-title").textContent = value.titulo;
+  document.querySelector(".movie-sinopsis").textContent = value.sinopsis;
 }

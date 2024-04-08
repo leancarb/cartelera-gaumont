@@ -1,57 +1,274 @@
 {
   "Eureka": {
+    "_id": 1,
+    "anio": 2023,
+    "director": "Lisandro Alonso",
+    "duracion": "2hr 26min",
+    "especial": true,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["17:15"],
     "poster": "https://www.themoviedb.org/t/p/w1280/sHZnAEVAZxH3kCSpvlyFUO7BFmf.jpg",
-    "titulo": "Eureka",
-    "url": "eureka"
+    "sala": "Leonardo Favio",
+    "sinopsis": "Alaina está cansada de ser oficial de policía en la reserva de Pine Ridge y decide dejar de contestar su radio. Su sobrina Sadie pasa una larga noche esperándola, sin éxito. Herida, decide emprender su viaje con la ayuda de su abuelo: volará a través del tiempo y el espacio hasta Sudamérica, finalmente dejará de ver viejos westerns en blanco y negro que no la representan de ninguna manera, y todo se sentirá diferente. cuando escucha los sueños de otras personas, las que viven en el bosque. Pero no habrá conclusiones definitivas…",
+    "titulo": "Eureka"
   },
   "La renga: Totalmente poseídos": {
+    "_id": 2,
+    "anio": 2023,
+    "director": "Diego Stokeli",
+    "duracion": "1hr 33min",
+    "especial": true,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Documental"],
+    "horario": ["22:15"],
     "poster": "https://www.themoviedb.org/t/p/w1280/e0unTzEcZe1xOWNZvPLiD1yvRco.jpg",
-    "titulo": "La renga: Totalmente poseídos",
-    "url": "la-renga-totalmente-poseidos"
+    "sala": "Leonardo Favio",
+    "sinopsis": "Narra el viaje de un grupo de amigos que se entregó a la ruta para escribir las páginas de una bitácora que nunca se termina. Montañas, valles, ríos y desiertos dibujan un mapa a través del cual navegan cabalgando sus motos, como lo hacen desde hace más de 30 años.",
+    "titulo": "La renga: Totalmente poseídos"
   },
   "Nueve reinas": {
+    "_id": 3,
+    "anio": 2000,
+    "director": "Fabián Bielinsky",
+    "duracion": "1hr 56min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Thriller"],
+    "horario": ["14:45"],
     "poster": "https://image.tmdb.org/t/p/w1280/AlUq2l4wSGXtu4Ema5h73J69UZn.jpg",
-    "titulo": "Nueve reinas (2000)",
-    "url": "nueve-reinas"
+    "sala": "María Luisa Bemberg",
+    "sinopsis": "Buenos Aires. Juan y Marcos son dos estafadores de poca monta, uno joven y un veterano en el arte del timo, que casualmente se ven envueltos en un asunto que les puede hacer millonarios: tienen menos de un día para hacer una estafa que no puede fallar.",
+    "titulo": "Nueve reinas (2000)"
   },
   "El viaje de Alba": {
+    "_id": 4,
+    "anio": 2023,
+    "director": "Omar Neri",
+    "duracion": "1hr 8min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Documental"],
+    "horario": ["14:00"],
     "poster": "https://www.themoviedb.org/t/p/w1280/b3rl3r531Z2uADFHidyd8PLxOxy.jpg",
-    "titulo": "El viaje de Alba",
-    "url": "el-viaje-de-alba"
+    "sala": "Fernando Birri",
+    "sinopsis": "Alba busca comprender el vínculo entre cultura y revolución, y focaliza su mirada en la historia de la revista y editorial La Rosa Blindada y en el poeta y editor José Luis Mangieri, su mayor impulsor. Mientras atraviesa con su bicicleta espacios urbanos y tiempos históricos, Alba convierte su experiencia en un diario de viaje poético y ensoñado.",
+    "titulo": "El viaje de Alba"
   },
   "El viento que arrasa": {
+    "_id": 5,
+    "anio": 2023,
+    "director": "Paula Hernández",
+    "duracion": "1hr 31min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["15:30", "22:30"],
     "poster": "https://www.themoviedb.org/t/p/w1280/2aFGrFjyX6i6wL3waSUmY3ZN577.jpg",
-    "titulo": "El viento que arrasa",
-    "url": "el-viento-que-arrasa"
+    "sala": "Fernando Birri",
+    "sinopsis": "Presa de la fe ciega de su padre, el Reverendo Pearson, Leni lo acompaña en su misión evangélica. Un accidente banal los obliga a detenerse en el taller del Gringo. Cuando el Reverendo se obsesiona con salvar el alma de Tapioca, el hijo del mecánico, Leni entiende que es momento de asumir su destino.",
+    "titulo": "El viento que arrasa"
   },
   "Puan": {
+    "_id": 6,
+    "anio": 2023,
+    "director": "María Alché",
+    "duracion": "1hr 50min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Comedia Dramática"],
+    "horario": ["12:45"],
     "poster": "https://www.themoviedb.org/t/p/w1280/oUGwasElL1jrMd8PwQBBdswTr4F.jpg",
-    "titulo": "Puan",
-    "url": "puan"
+    "sala": "Leonardo Favio",
+    "sinopsis": "Marcelo (Marcelo Subiotto), un hombre de unos 50 años, ha dedicado su vida a la enseñanza de Filosofía en la Facultad de Filosofía y Letras. Cuando su jefe de Cátedra, mentor y compañero de aventuras del pensamiento muere inesperadamente, Marcelo asume que heredará la titularidad de la Cátedra que ha quedado vacante. Lo que no imagina es que Rafael Sujarchuk (Leonardo Sbaraglia), un brillante y seductor colega, regresará desde Alemania para disputar el puesto vacante. Comienza entonces una batalla sin cuartel entre dos profesores extremadamente opuestos en sus estilos y pedagogías.",
+    "titulo": "Puan"
   },
   "Descansar en paz": {
+    "_id": 7,
+    "anio": 2023,
+    "director": "Sebastián Borensztein",
+    "duracion": "1hr 45min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "10/04"]
+    },
+    "genero": ["Thriller"],
+    "horario": ["22:30"],
     "poster": "https://www.themoviedb.org/t/p/w1280/7xdbXo63wcUZ3TLwrjwg35m1TEm.jpg",
-    "titulo": "Descansar en paz",
-    "url": "descansar-en-paz"
+    "sala": "Leonardo Favio",
+    "sinopsis": "Un hombre de familia, acorralado por las deudas, decide aprovechar una circunstancia única e imprevisible para desaparecer. Después de muchos años de vivir alejado de su país bajo una identidad falsa, un hallazgo fortuito pone a prueba la tentación irresistible de querer saber cómo ha continuado la vida de los suyos en su ausencia. La pregunta se vuelve obsesión: ¿Se puede desaparecer y olvidar toda una vida? ¿Se puede empezar de cero y nunca más mirar atrás?",
+    "titulo": "Descansar en paz"
   },
   "La noche que luché contra Dios": {
+    "_id": 8,
+    "anio": 2023,
+    "director": "Rodrigo Fernández Engler",
+    "duracion": "1hr 43min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["12:30", "17:00", "22:00"],
     "poster": "https://www.themoviedb.org/t/p/w1280/fo4vGiFYHd3vhnqSptFGYvYansg.jpg",
-    "titulo": "La noche que luché contra Dios",
-    "url": "la-noche-que-luche-contra-dios"
+    "sala": "Fernando Birri",
+    "sinopsis": "El 18 de julio de 1994, el joven Benjamín Sheinberg inicia su primer día como médico residente en el Hospital de Clínicas, en Buenos Aires, mientras que al mismo tiempo una bomba explota en la AMIA causando la muerte de 85 personas. Sheinberg se ve sobrepasado por la situación que lo afecta más allá de lo profesional y decide marcharse a Israel. Allí, de la mano de Rubén, un viejo amigo de su abuelo, “viajará” en el tiempo, adentrándose en la antigua historia de Israel, viéndose reflejado en el milenario personaje Jacob. Pero, ¿qué conexión hay entre ambos personajes?",
+    "titulo": "La noche que luché contra Dios"
   },
   "Clara se pierde en el bosque": {
+    "_id": 9,
+    "anio": 2023,
+    "director": "Camila Fabbri",
+    "duracion": "1hr 26min",
+    "especial": false,
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["12:15", "17:30", "20:45"],
     "poster": "https://www.themoviedb.org/t/p/w1280/mcSnzmbdUgmCuTpLYQRPZfalXmU.jpg",
-    "titulo": "Clara se pierde en el bosque",
-    "url": "clara-se-pierde-en-el-bosque"
+    "sala": "Fernando Birri",
+    "sinopsis": "Clara se aleja de la ciudad en un viaje familiar hacia las afueras. Recibe un mensaje de Martina, su amiga de la infancia, con quien estuvo en República Cromañón la noche de la tragedia, que pone en primer plano la idea de la maternidad. A partir de este disparo de presente y realidad, mediante audios de Whatsapp, vídeos caseros y almuerzos familiares, se desata una revisión exhaustiva sobre su propia adolescencia y la de sus amigos en una ciudad devastada por la crisis y por una tragedia.",
+    "titulo": "Clara se pierde en el bosque"
   },
   "Hemshej": {
+    "_id": 10,
+    "anio": 2023,
+    "director": "Julieta Lande",
+    "duracion": "1hr 11min",
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Documental"],
+    "horario": ["19:15"],
     "poster": "https://www.themoviedb.org/t/p/w1280/4q4Xk5cjnMfMQQ0rfM23SWZcezX.jpg",
-    "titulo": "Hemshej",
-    "url": "hemshej"
+    "sala": "Fernando Birri",
+    "sinopsis": "En 1939, Joel y Jana escapan de su pueblo por la llegada de los nazis. Esa decisión los convertiría en los únicos de su familia en sobrevivir al Holocausto. 80 años más tarde, Julieta, su nieta, decide desandar sus pasos para entender qué hay detrás del silencio de su padre. Entonces, comienza a sospechar que hay una parte de su propia historia que le fue omitida.",
+    "titulo": "Hemshej"
   },
-  "Canelones": {
-    "poster": "https://www.themoviedb.org/t/p/w1280/vhtCiU2tNPDjoutBLM18A066tw6.jpg",
-    "titulo": "Canelones",
-    "url": "canelones"
+  "Historias Breves 21": {
+    "_id": 11,
+    "anio": 2023,
+    "director": "Varios",
+    "duracion": "2hr 3min",
+    "fechas": {
+      "semana": [
+        "Jueves",
+        "Viernes",
+        "Sábado",
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miércoles"
+      ],
+      "numero": ["04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04"]
+    },
+    "genero": ["Drama"],
+    "horario": ["19:30"],
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/85dSAQckg6ahWT0GEUSAO2BwY3j.jpg",
+    "sala": "Leonardo Favio",
+    "sinopsis": "Historias Breves se convirtió en el objetivo de jóvenes realizadores que presentan sus proyectos, año tras año, en una primera experiencia cinematográfica profesional. Es un concurso que se propone y concreta; es una política de Estado que ofrece apoyo efectivo a la capacidad creativa y productiva de cineastas argentinos, que contribuyen, de forma decisiva, a la cultura y la identidad nacional.",
+    "titulo": "Historias Breves 21"
   }
 }

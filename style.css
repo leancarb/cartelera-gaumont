@@ -475,6 +475,7 @@ FONT SIZE SYSTEM (px)
 .selection-information__fechas {
   user-select: none;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 1rem;
   padding-block: 0.75rem;
