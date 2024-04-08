@@ -1,27 +1,36 @@
 {
   "rewrites": [
-    { "source": "/eureka", "destination": "/eureka.html" },
+    { "source": "film/eureka", "destination": "film/eureka.html" },
     {
-      "source": "/la-renga-totalmente-poseidos",
-      "destination": "/la-renga-totalmente-poseidos.html"
+      "source": "film/la-renga",
+      "destination": "film/la-renga.html"
     },
-    { "source": "/nueve-reinas", "destination": "/nueve-reinas.html" },
-    { "source": "/el-viaje-de-alba", "destination": "/el-viaje-de-alba.html" },
+    { "source": "film/nueve-reinas", "destination": "film/nueve-reinas.html" },
     {
-      "source": "/el-viento-que-arrasa",
-      "destination": "/el-viento-que-arrasa.html"
-    },
-    { "source": "/puan", "destination": "/puan.html" },
-    { "source": "/descansar-en-paz", "destination": "/descansar-en-paz.html" },
-    {
-      "source": "/la-noche-que-luche-contra-dios",
-      "destination": "/la-noche-que-luche-contra-dios.html"
+      "source": "film/el-viaje-de-alba",
+      "destination": "film/el-viaje-de-alba.html"
     },
     {
-      "source": "/clara-se-pierde-en-el-bosque",
-      "destination": "/clara-se-pierde-en-el-bosque.html"
+      "source": "film/el-viento-que-arrasa",
+      "destination": "film/el-viento-que-arrasa.html"
     },
-    { "source": "/hemshej", "destination": "/hemshej.html" },
-    { "source": "/canelones", "destination": "/canelones.html" }
+    { "source": "film/puan", "destination": "film/puan.html" },
+    {
+      "source": "film/descansar-en-paz",
+      "destination": "film/descansar-en-paz.html"
+    },
+    {
+      "source": "film/la-noche-que-luche-contra-dios",
+      "destination": "film/la-noche-que-luche-contra-dios.html"
+    },
+    {
+      "source": "film/clara-se-pierde-en-el-bosque",
+      "destination": "film/clara-se-pierde-en-el-bosque.html"
+    },
+    { "source": "film/hemshej", "destination": "film/hemshej.html" },
+    {
+      "source": "film/historias-breves-21",
+      "destination": "film/historias-breves-21.html"
+    }
   ]
 }
