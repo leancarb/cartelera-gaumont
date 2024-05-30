@@ -1,0 +1,33 @@
+{
+  "precios": {
+    "titulo": "Boleto oficial cinematográfico",
+    "subtitulo": "Descuentos",
+    "entradas": "Las entradas pueden retirarse anticipadamente en la ventanilla del cine",
+    "publico_general": {
+      "label": "público general",
+      "valor": 400
+    },
+    "jubilados": {
+      "label": "jubilados y pensionados",
+      "valor": 200
+    },
+    "estudiantes": {
+      "label": "estudiantes de todos los niveles educativos",
+      "valor": 200
+    },
+    "afiliados": {
+      "label": "afiliados de A.A.A., SADOP, ATE, UPCN, SUTERH, AEFYP y SICA",
+      "valor": 200
+    },
+    "discapacitados": {
+      "label": "personas con certificado de discapacidad",
+      "valor": "10% del valor del BOC",
+      "descuento": 10
+    },
+    "incaa": {
+      "label": "empleados del INCAA",
+      "valor": "10% del valor del BOC",
+      "descuento": 10
+    }
+  }
+}
